@@ -83,6 +83,7 @@
                   </div>
 				</div>
 
+			
 				<div class="col-sm-6">
 					<div class="panel panel-default">
 						<div class="panel-body">
@@ -90,25 +91,32 @@
 							<p class="text-muted">Order now and get a free shipping.</p>
 							<hr>
 
-							<form>
+							<form data-toggle="validator" role="form" >
 								<div class="top-margin">
 									<label>Name</label>
-									<input type="text" class="form-control" placeholder='Julius Richmond'>
+									<input type="text" class="form-control" id="inputName" placeholder='Julius Richmond' required>
+									<div class="help-block with-errors"></div>
 								</div>
 								
 								<div class="top-margin">
 									<label>Address</label>
-									<input type="text" class="form-control">
+									<input type="text" class="form-control" id="inputName" required>
+									<div class="help-block with-errors"></div>
 								</div>
 								<div class="top-margin">
 									<label>Phone Number</label>
-									<input type="text" class="form-control">
+									<input type="text" class="form-control" id="inputName" required>
+									<div class="help-block with-errors"></div>
 								</div>
 								<div class="top-margin">
-									<label>Email Address</label>
-									<input type="text" class="form-control" name='email'>
-
+									<label for="inputEmail" class="control-label">Email</label>
+    							<input type="email" class="form-control" id="inputEmail" placeholder="" data-error="Bruh, that email address is invalid" required>
+    							<div class="help-block with-errors"></div>
 								</div>
+
+								
+
+							
 
 
 								<!-- Select Product 
@@ -275,77 +283,9 @@
   <!-- /About--> 
 
 
-  <script type="text/javascript">
-$(document).ready(function() {
-    $('#defaultForm')
-        .bootstrapValidator({
-            message: 'This value is not valid',
-            feedbackIcons: {
-                valid: 'glyphicon glyphicon-ok',
-                invalid: 'glyphicon glyphicon-remove',
-                validating: 'glyphicon glyphicon-refresh'
-            },
-            fields: {
-                username: {
-                    message: 'The username is not valid',
-                    validators: {
-                        notEmpty: {
-                            message: 'The username is required and can\'t be empty'
-                        },
-                        stringLength: {
-                            min: 6,
-                            max: 30,
-                            message: 'The username must be more than 6 and less than 30 characters long'
-                        },
-                        /*remote: {
-                            url: 'remote.php',
-                            message: 'The username is not available'
-                        },*/
-                        regexp: {
-                            regexp: /^[a-zA-Z0-9_\.]+$/,
-                            message: 'The username can only consist of alphabetical, number, dot and underscore'
-                        }
-                    }
-                },
-                email: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The email address is required and can\'t be empty'
-                        },
-                        emailAddress: {
-                            message: 'The input is not a valid email address'
-                        }
-                    }
-                },
-                password: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The password is required and can\'t be empty'
-                        }
-                    }
-                }
-            }
-        })
-        .on('success.form.bv', function(e) {
-            // Prevent form submission
-            e.preventDefault();
-
-            // Get the form instance
-            var $form = $(e.target);
-
-            // Get the BootstrapValidator instance
-            var bv = $form.data('bootstrapValidator');
-
-            // Use Ajax to submit form data
-            $.post($form.attr('action'), $form.serialize(), function(result) {
-                console.log(result);
-            }, 'json');
-        });
-});
-</script>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="static/assets/js/validator.js"></script>
+	<script src="static/assets/js/jquery.min.js"></script>
+	<script src="static/assets/js/bootstrap.min.js"></script>
 	<script src="static/assets/js/headroom.min.js"></script>
 	<script src="static/assets/js/jQuery.headroom.min.js"></script>
 	<script src="static/assets/js/template.js"></script>
