@@ -309,11 +309,22 @@
         <img class="tw" src="static/images/u4048-49x49.png" data-rimage data-src="static/images/u4048-49x49.png">
       </a>
 
-      <input class="_input" name="Name" placeholder="Name" type="text">
-      <input class="email" name="Email" placeholder="Email" type="email">
+      <form data-toggle="validator" role="form" >
+      <input class="_input" name="Name" placeholder="Name" type="text" id="inputName">
+      <div class="help-block with-errors"></div>
+
+      <input class="email" name="Email" placeholder="Email" type="email" id="inputEmail">
+      <div class="help-block with-errors"></div>
+
       <textarea class="message" name="Message" placeholder="Message"></textarea>
-      <button class="send">Send</button>
+
+      <button class="send" type="submit">Send</button>
+      </form>
     </div>
+
+
+  
+
 
     <div class="footermsg footermsg-1">
       <div class="allrights">All rights reserved&nbsp;© 2014 - Blox
@@ -330,8 +341,6 @@
   <script src="static/js/scrolling-nav.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script src="static/js/wow.min.js"></script>
-  <script>
-   new WOW().init();
-  </script>
+  <script>new WOW().init();</script>
 </body>
 </html>
