@@ -1,0 +1,2580 @@
+body {
+   width: 100%;
+    height: 100%;
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}  
+
+
+.browsertext p,
+.footerbox p,
+.musictext p,
+.pictext p,
+.remote p,
+.security p,
+.sharetext p,
+.text-2 p,
+.videotext p {
+  margin-bottom: 1em;
+}
+
+.text-3 p, {
+  margin-bottom: 0em;
+}
+
+
+
+.about {
+  float: left;
+}
+
+.about .text {
+  float: left;
+  clear: both;
+  width: 66.3997395833%;
+  min-height: 246px;
+  margin: 81px 0 0 16.79948%;
+  font-family: 'Source Sans Pro';
+  font-size: 1.875em;
+  font-weight: 300;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.weoffer {
+ font-family: 'Source Sans Pro';
+  font-size: 1.875em;
+  font-weight: 300;
+  text-align: center;
+  color: #2d2d2d;
+  max-width:800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.allrights {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 auto;
+  font: 400 1em/1.38 'Open Sans';
+  text-align: center;
+  color: rgb(140, 140, 140);
+}
+
+/*powered*/
+.poweredpics {
+  margin-top: 10%;
+  margin-left: 64%;
+  padding-right: 10px;
+}
+
+.poweredby {
+  max-width: 130px;
+  min-width: 130px
+}
+
+.arrowtobrowser {
+  display: block;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+  z-index: 31;
+  width: 36px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+/*about div and arrows*/
+
+.about-2 {
+  position: relative;
+  width: 100%;
+  height: 1050px;
+  background-color: #f9f9f9;
+}
+
+.arrowtofeature {
+  display: block;
+  position: absolute;
+  top: 930px;
+  left: 0;
+  right: 0;
+  z-index: 57;
+  width: 36px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.downtofeature {
+  color:#412b45;
+}
+
+@media(max-width: 1200px) {
+
+.about-2 {
+
+  height: 1000px;
+
+}
+
+.arrowtofeature {
+
+  top: 880px;
+}
+
+}
+
+@media(max-width: 1024px) {
+ 
+ .about-2 {
+
+  height: 940px;
+
+}
+
+.arrowtofeature {
+
+  top: 840px;
+}
+
+}
+
+@media(max-width: 768px) {
+
+.about-2 {
+
+  height: 900px;
+
+}
+
+.arrowtofeature {
+
+  top: 800px;
+}
+
+}
+
+
+/*about arrowdown*/
+
+
+.arrowtomusic {
+  display: block;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+  z-index: 46;
+  width: 36px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.arrowtootherf {
+  display: block;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+  z-index: 26;
+  width: 36px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.arrowtopicture {
+  display: block;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+  z-index: 41;
+  width: 36px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.arrowtoshare {
+  display: block;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+  z-index: 36;
+  width: 36px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.arrowtovideo {
+  display: block;
+  position: absolute;
+  top: 700px;
+  left: 0;
+  right: 0;
+  z-index: 51;
+  width: 36px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.beach {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 500px;
+  background: url('../images/photo-angelina-odemchuck-n-52.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.beach2 {
+  margin-top: 50px;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 500px;
+  background: url('../images/photo-angelina-odemchuck-n-52.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.bloxunit {
+  display: block;
+  width: 50%;
+  min-width: 300px;
+  max-width: 780px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.bloxunit2 {
+  display: block;
+  width: 48%;
+  min-width: 200px;
+  max-width: 780px;
+  height: auto;
+  margin: 134px auto 0;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+.bloxunit3 {
+  display: block;
+  width: 100%;
+  min-width: 200px;
+  max-width: 780px;
+  height: auto;
+  margin: 134px auto 0;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.browserpic {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 23;
+  width: 100%;
+  height: 600px;
+  margin-top: 683px;
+  background: url('../images/14min(2).jpg') rgb(66, 43, 69);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.browsertext {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 27;
+  width: 100%;
+  height: 700px;
+  margin-top: -1283px;
+  background-color: rgb(255, 255, 255);
+}
+
+.browsertext .image {
+  width: 30%;
+  min-width: 350px;
+  max-width: 350px;
+  margin: 139px 0 0 19%;
+}
+
+.browsertext .text {
+  position: relative;
+  float: left;
+  z-index: 24;
+  width: 34%;
+  min-height: 100px;
+  margin-top: 252px;
+  padding-right: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.contact {
+  float: left;
+  margin: 5px 0 0 9.98742%;
+  padding-right: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #ffffff;
+}
+
+.contact:hover,
+.menu .about:hover,
+.menu .features:hover {
+  color: #aaaaaa;
+}
+
+.contact:active {
+  font-weight: 400;
+}
+
+.downtoabout {
+  display: block;
+  float: left;
+  clear: both;
+  width: 272px;
+  min-width: 40px;
+  max-width: 55px;
+  height: auto;
+  margin: 105px 0 0 46%;
+  overflow: hidden;
+}
+
+.downtocontact {
+  display: block;
+  position: absolute;
+  top: 800px;
+  left: 0;
+  right: 0;
+  z-index: 21;
+  width: 38px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.email {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 8;
+  width: 44.6111869031%;
+  min-width: 327px;
+  max-width: 327px;
+  height: 34px;
+  margin: -182px 0 0 55.38021%;
+  padding: 0 20px;
+  background-color: rgb(242, 242, 242);
+  font: 400 0.813em/1.38 'Open Sans';
+  color: #2d2d2d;
+}
+
+.extrafeatures {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 900px;
+  background-color: rgb(66, 43, 69);
+}
+
+.fb .fb {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  width: 49px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.features {
+  float: left;
+}
+
+.features .text {
+  width: 83.1666666666%;
+  min-height: 59px;
+  margin: 100px auto 0;
+  font: 300 1.625em/1 'Source Sans Pro';
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.footerbox {
+  position: relative;
+  float: left;
+  z-index: 12;
+  width: 100%;
+  height: 300px;
+  margin-top: 200px;
+}
+
+.footerlogo {
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  width: 105px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footermsg {
+  position: absolute;
+  top: 700px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footertext {
+  float: left;
+  width: 32.3333333333%;
+  min-height: 223px;
+  margin: 34px 0 0 17.66667%;
+  padding-right: 20px;
+  padding-left: 20px;
+  font: 400 1em/1.38 'Open Sans';
+  color: rgb(255, 253, 253);
+}
+
+.gadgets {
+  display: block;
+  width: 53.8333333333%;
+  min-width: 300px;
+  max-width: 646px;
+  height: auto;
+  margin: 34px auto 0;
+  overflow: hidden;
+}
+
+.home {
+  float: left;
+  margin-top: 5px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #ffffff;
+}
+
+.home:hover {
+  color: #ffffff;
+}
+
+.home:active {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: -13px;
+  left: -141.3102489407%;
+  z-index: 67;
+  width: 25.4237288135%;
+  min-width: 120px;
+  max-width: 120px;
+  height: auto;
+  overflow: hidden;
+}
+
+/*
+.mainbanner {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 59;
+  width: 100%;
+  height: 900px;
+  min-height: 700px;
+  background: url('../images/photo-folkert-gorter-n-22.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+*/
+
+.mainbanner {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('../images/photo-folkert-gorter-n-22.jpg') no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.menu {
+  position: relative;
+  float: left;
+  width: 39.3333333333%;
+  height: 32px;
+  margin: 14px 0 0 60.58203%;
+}
+
+.menu .about,
+.menu .features {
+  margin: 5px 0 0 9.98742%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #ffffff;
+}
+
+.menu .about:active,
+.menu .features:active {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.message {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 9;
+  width: 44.6111869031%;
+  min-width: 327px;
+  max-width: 327px;
+  height: 94px;
+  margin: -129px 0 0 55.38542%;
+  padding: 5px 20px;
+  border: 1px solid rgb(119, 119, 119);
+  background-color: rgb(242, 242, 242);
+  font: 400 0.813em/1.38 'Open Sans';
+  color: #2d2d2d;
+  resize: none;
+}
+
+.musicpic {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 600px;
+  background: url('../images/bloxmusic.jpg') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position-y: 0%;
+}
+
+.musictext .image {
+  width: 28%;
+  min-width: 340px;
+  max-width: 340px;
+  margin: 145px 0 0 20%;
+}
+
+.musictext .text {
+  position: relative;
+  float: left;
+  z-index: 39;
+  width: 35.1666666666%;
+  min-height: 100px;
+  margin: 237px 0 0 2%;
+  padding-right: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.picpic {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 600px;
+  background: url('../images/picbg(2).jpg') rgb(66, 43, 69);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.pictext .image {
+  width: 30%;
+  min-width: 360px;
+  max-width: 360px;
+  margin: 230px 0 0 16%;
+}
+
+.pictext .text {
+  position: relative;
+  float: left;
+  z-index: 34;
+  width: 35.8333333333%;
+  min-height: 100px;
+  margin: 280px 0 0 3%;
+  padding-right: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.remote {
+  float: left;
+}
+
+.remote .remote {
+  display: block;
+  width: 23.9166666666%;
+  min-width: 287px;
+  max-width: 287px;
+  height: auto;
+  margin: 79px 0 0 5%;
+  overflow: hidden;
+}
+
+.remotetext {
+  float: left;
+  width: 34%;
+  min-height: 100px;
+  margin: 72px 0 0 15%;
+  padding-left: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.road {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/1pic.jpg') rgb(66, 43, 69);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.security {
+  width: 100%;
+  height: 355px;
+  margin: 0 auto;
+}
+
+.security .text {
+  float: left;
+  width: 35.5833333333%;
+  min-height: 100px;
+  margin: 80px 0 0 5%;
+  padding-right: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.send {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 11;
+  width: 14.6815313778%;
+  min-width: 108px;
+  max-width: 108px;
+  height: 29px;
+  margin: -7px 0 0 55.38542%;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font: 400 0.813em/1.38 'Open Sans';
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.sharefilestext {
+  position: relative;
+  float: left;
+  z-index: 29;
+  width: 35.25%;
+  min-height: 100px;
+  margin: 239px 0 0 1%;
+  padding-right: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.sharepic {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 600px;
+  background: url('../images/13.jpg') rgb(66, 43, 69);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.musictext,
+.pictext,
+.sharetext,
+.videotext {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+}
+
+.sharetext .image {
+  width: 30%;
+  min-width: 360px;
+  max-width: 360px;
+  margin: 148px 0 0 18%;
+}
+
+.fb,
+.tw {
+  display: block;
+  position: absolute;
+  min-width: 49px;
+  max-width: 49px;
+}
+
+.tw .tw {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  width: 49px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.videopic {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 600px;
+  background: url('../images/9.jpg') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.videotext .image {
+  width: 30%;
+  min-width: 360px;
+  max-width: 360px;
+  margin: 180px 0 0 18%;
+}
+
+.watchvideo {
+  position: relative;
+  float: left;
+  z-index: 44;
+  width: 32.5833333333%;
+  min-height: 100px;
+  margin: 254px 0 0 3%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.welcome {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 62;
+  width: 80%;
+  height: 187px;
+  margin: -455px 0 0 10%;
+}
+
+._container {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 44.6111869031%;
+  min-width: 327px;
+  max-width: 327px;
+  height: 34px;
+  margin: 22px 0 0 5.38021%;
+  padding: 0 20px;
+  background-color: rgb(242, 242, 242);
+  font: 400 0.813em/1.38 'Open Sans';
+  color: #2d2d2d;
+}
+
+._text {
+  line-height: 1.38;
+}
+
+
+
+/*h2 TEXTs*/
+
+.features ._text {
+  margin: 100px auto 0;
+  font-family: 'Source Sans Pro';
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.weoff {
+  margin: -30px auto 0;
+  font-family: 'Source Sans Pro';
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px; 
+}
+
+
+.fb-1 {
+  top: 130px;
+  left: 25.2825520833%;
+  z-index: 6;
+  width: 5.8333333333%;
+  height: 51px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.features-2 {
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+}
+
+.image-6 {
+  width: 51.4583333333%;
+  min-width: 247px;
+  max-width: 247px;
+  margin: 160px 0 0 16%;
+}
+
+.image-7 {
+  width: 15.4166666666%;
+  min-width: 40px;
+  max-width: 81px;
+  margin: 161px 0 0 1%;
+}
+
+.remote-1 {
+  clear: both;
+  width: 100%;
+  height: 355px;
+  margin-top: 60px;
+}
+
+.tw-1 {
+  top: 130px;
+  left: 31.1158854166%;
+  z-index: 4;
+  width: 5.8333333333%;
+  height: 51px;
+  padding-right: 20px;
+  padding-left: 50px;
+}
+
+._container-1 {
+  height: 60px;
+  min-height: 60px;
+}
+
+._container-2 {
+  clear: both;
+  height: 800px;
+}
+
+.about a {
+  font-style: normal;
+  text-transform: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.contact a,
+.features a,
+.home a {
+  color: inherit;
+}
+
+.about a:hover,
+.contact a:hover,
+.features a:hover,
+.home a:hover {
+  color: #aaaaaa;
+}
+
+.remotetext em {
+  font-family: 'Open Sans';
+  font-size: 1.25em;
+  font-weight: 300;
+  color: inherit;
+}
+
+.remotetext span,
+.sharefilestext span,
+.text span,
+.watchvideo span {
+  font-family: 'Open Sans';
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.sharefilestext em,
+.watchvideo em {
+  font-family: 'Open Sans';
+  font-size: 1.25em;
+  font-weight: 300;
+  color: rgb(2, 2, 2);
+}
+
+.text em {
+  font-family: 'Open Sans';
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+.text-5 em {
+  color: rgb(2, 2, 2);
+}
+
+.text-6 em {
+  color: inherit;
+}
+
+@media(max-width: 1024px) {
+  
+ .downtoabout {
+  display: block;
+  float: left;
+  clear: both;
+  width: 272px;
+  min-width: 40px;
+  max-width: 55px;
+  height: auto;
+  margin: 105px 0 0 45.4%;
+  overflow: hidden;
+}
+
+
+
+  .about .bloxunit {
+    height: auto;
+  }
+
+  .about .text {
+    width: 66.3986206054%;
+    margin-left: 16.79993%;
+  }
+
+  .browserpic {
+    position: relative;
+    z-index: 23;
+    margin-top: 700px;
+  }
+
+  .browsertext {
+    position: relative;
+    z-index: 27;
+    margin-top: -1300px;
+  }
+
+  .browsertext .arrowtootherf {
+    top: 579px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .browsertext .image {
+    min-width: 320px;
+    max-width: 320px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 12.9974399999%;
+  }
+
+  .browsertext .text {
+    position: relative;
+    z-index: 24;
+    width: 40.234375%;
+    margin-top: 248px;
+  }
+
+  .about .arrowtofeature,
+  .extrafeatures .downtocontact,
+  .sharetext .arrowtobrowser {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features .arrowtovideo {
+    top: 719px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features .gadgets {
+    height: auto;
+  }
+
+  .footerbox .email {
+    position: relative;
+    z-index: 8;
+    min-width: 300px;
+    max-width: 300px;
+    margin-top: -180px;
+    margin-left: 55.28412%;
+  }
+
+  .footerbox .footertext {
+    width: 34.9609375%;
+    margin-top: 30px;
+    margin-left: 15.03754%;
+  }
+
+  .footerbox .message {
+    position: relative;
+    z-index: 9;
+    min-width: 300px;
+    max-width: 300px;
+    margin-top: -128px;
+    margin-left: 55.28107%;
+  }
+
+  .footerbox .send {
+    position: relative;
+    z-index: 11;
+    margin-top: -15px;
+    margin-left: 55.3833%;
+  }
+
+  .footermsg .allrights {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.875em;
+  }
+
+  .footermsg .footerlogo {
+    top: 20px;
+    left: 0;
+    right: 0;
+    min-width: 90px;
+    max-width: 90px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mainbanner {
+    position: relative;
+    z-index: 59;
+  }
+
+  .menu .about,
+  .menu .contact,
+  .menu .features {
+    margin-left: 9.98381%;
+  }
+
+  .menu .logo {
+    left: -86.7172504799%;
+    width: 23.0326295585%;
+    height: auto;
+  }
+
+  .musictext .arrowtopicture {
+    top: 628px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .musictext .image {
+    min-width: 300px;
+    max-width: 300px;
+    height: auto;
+    margin-top: 180px;
+    margin-left: 15.99884%;
+  }
+
+  .musictext .text {
+    position: relative;
+    z-index: 39;
+    width: 40.0390625%;
+    margin-top: 254px;
+    margin-left: 0.09766%;
+  }
+
+  .pictext .arrowtoshare {
+    top: 591px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .pictext .image {
+    min-width: 320px;
+    max-width: 320px;
+    height: auto;
+    margin-top: 230px;
+    margin-left: 9%;
+  }
+
+  .pictext .text {
+    position: relative;
+    z-index: 34;
+    width: 44.82421875%;
+    margin-top: 254px;
+    margin-left: 3%;
+  }
+
+  .remote .remote {
+    width: 23.9151000976%;
+    min-width: 260px;
+    max-width: 260px;
+    height: auto;
+    margin-top: 95px;
+    margin-left: 4.99878%;
+  }
+
+  .remote .remotetext {
+    width: 33.9981079101%;
+    margin-top: 80px;
+    margin-left: 16.99982%;
+  }
+
+  .security .image {
+    height: auto;
+  }
+
+  .security .text {
+    width: 37.7604166666%;
+    margin-left: 4.99878%;
+  }
+
+  .sharetext .image {
+    min-width: 320px;
+    max-width: 320px;
+    height: auto;
+    margin-top: 160px;
+    margin-left: 15.99884%;
+  }
+
+  .sharetext .sharefilestext {
+    position: relative;
+    z-index: 29;
+    width: 39.0625%;
+    margin-top: 231px;
+    margin-left: 0;
+  }
+
+  .fb .fb,
+  .tw .tw {
+    right: auto;
+    height: auto;
+  }
+
+  .videotext .arrowtomusic {
+    top: 584px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .videotext .image {
+    min-width: 320px;
+    max-width: 320px;
+    height: auto;
+    margin-top: 220px;
+    margin-left: 13.5%;
+  }
+
+  .videotext .watchvideo {
+    position: relative;
+    z-index: 44;
+    width: 40.13671875%;
+    margin-top: 264px;
+    margin-left: 30px;
+    padding-right: 20px;
+  }
+
+  .welcome {
+    position: relative;
+    z-index: 62;
+    width: 79.9987792968%;
+    margin-left: 9.99756%;
+  }
+
+  .welcome .downtoabout {
+    height: auto;
+    margin-left: 46.64302%;
+  }
+
+  .footerbox ._input {
+    position: relative;
+    z-index: 7;
+    min-width: 300px;
+    max-width: 300px;
+    margin-left: 5.28107%;
+  }
+
+  .extrafeatures .remote-1 {
+    position: relative;
+    margin-top: 47px;
+  }
+
+  .security .image-6 {
+    min-width: 210px;
+    max-width: 210px;
+    margin-top: 166px;
+    margin-left: 16.99982%;
+  }
+
+  .security .image-7 {
+    min-width: 67px;
+    max-width: 67px;
+    margin-top: 167px;
+    margin-left: 0.78125%;
+  }
+
+  ._container .fb-1 {
+    top: 150px;
+    left: 25%;
+    width: 6.8359375%;
+  }
+
+  ._container .footerbox-1 {
+    position: relative;
+    z-index: 12;
+    height: 350px;
+  }
+
+  ._container .footermsg-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .menu-1 {
+    width: 50.87890625%;
+    margin-left: 49.11957%;
+  }
+
+  ._container .tw-1 {
+    top: 150px;
+    left: 32.3272705078%;
+    width: 6.8359375%;
+  }
+}
+
+@media(max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+
+  .downtoabout {
+  display: block;
+  float: left;
+  clear: both;
+  width: 272px;
+  min-width: 40px;
+  max-width: 55px;
+  height: auto;
+  margin: 106px 0 0 45%;
+  overflow: hidden;
+}
+
+  .about .bloxunit {
+    height: auto;
+  }
+
+  .about .text {
+    float: none;
+    clear: none;
+    width: 73.9583333333%;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .browserpic {
+    position: relative;
+    z-index: 23;
+  }
+
+  .browsertext {
+    position: relative;
+    z-index: 27;
+  }
+
+  .browsertext .arrowtootherf {
+    top: 580px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .browsertext .image {
+    min-width: 270px;
+    max-width: 270px;
+    height: auto;
+    margin-top: 180px;
+    margin-left: 12.99642%;
+  }
+
+  .browsertext .text {
+    position: relative;
+    z-index: 24;
+    width: 38.671875%;
+    margin-top: 225px;
+  }
+
+  .features .arrowtovideo {
+    top: 720px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features .gadgets {
+    height: auto;
+    margin-top: 39px;
+  }
+
+  .footerbox .email {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 75px;
+    left: 51.9388834635%;
+    width: 28.6458333333%;
+    min-width: 260px;
+    max-width: 260px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footerbox .footertext {
+    width: 37.3697916666%;
+    margin-top: 22px;
+    margin-left: 10.80526%;
+  }
+
+  .footerbox .message {
+    position: absolute;
+    float: none;
+    top: 128px;
+    left: 51.9327799479%;
+    width: 28.3854166666%;
+    min-width: 260px;
+    max-width: 260px;
+    height: 82px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footerbox .send {
+    position: absolute;
+    float: none;
+    top: 245px;
+    left: 51.9388834635%;
+    width: 14.0625%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  ._container .footermsg-1,
+  .footermsg .allrights {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about .arrowtofeature,
+  .extrafeatures .downtocontact,
+  .footermsg .footerlogo,
+  .pictext .arrowtoshare,
+  .sharetext .arrowtobrowser {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mainbanner {
+    position: relative;
+    z-index: 59;
+  }
+
+  .menu .about,
+  .menu .contact,
+  .menu .features {
+    margin-left: 9.99343%;
+  }
+
+  .menu .logo {
+    left: -39.5016730402%;
+    width: 22.9445506692%;
+    height: auto;
+  }
+
+  .musictext .arrowtopicture {
+    top: 629px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .musictext .image {
+    min-width: 280px;
+    max-width: 280px;
+    height: auto;
+    margin-top: 190px;
+    margin-left: 13.99943%;
+  }
+
+  .musictext .text {
+    position: relative;
+    z-index: 39;
+    width: 33.9986165364%;
+    margin-top: 241px;
+    margin-left: 0;
+  }
+
+  .pictext .image {
+    min-width: 280px;
+    max-width: 280px;
+    height: auto;
+    margin-top: 250px;
+    margin-left: 8.99862%;
+  }
+
+  .pictext .text {
+    position: relative;
+    z-index: 34;
+    width: 42.578125%;
+    margin-top: 240px;
+    margin-left: 3.5%;
+  }
+
+  .remote .remote {
+    float: none;
+    width: 26.0416666666%;
+    min-width: 220px;
+    max-width: 220px;
+    height: auto;
+    margin-top: -321px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .remote .remotetext {
+    float: none;
+    width: 61.9791666666%;
+    margin-top: 181px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .security .image {
+    height: auto;
+  }
+
+  .security .text {
+    float: none;
+    width: 69.4915254237%;
+    margin-top: 180px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .sharetext .image {
+    min-width: 280px;
+    max-width: 280px;
+    height: auto;
+    margin-top: 176px;
+    margin-left: 13.99943%;
+  }
+
+  .sharetext .sharefilestext {
+    position: relative;
+    z-index: 29;
+    width: 35.546875%;
+    margin-top: 200px;
+  }
+
+  .fb .fb,
+  .tw .tw {
+    height: auto;
+  }
+
+  .videotext .arrowtomusic {
+    top: 585px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .videotext .image {
+    min-width: 260px;
+    max-width: 260px;
+    height: auto;
+    margin-top: 209px;
+    margin-left: 13.99943%;
+  }
+
+  .videotext .watchvideo {
+    position: relative;
+    z-index: 44;
+    width: 36.6760253906%;
+    margin-top: 236px;
+  }
+
+  .welcome {
+    position: relative;
+    z-index: 62;
+  }
+
+  .welcome .downtoabout {
+    height: auto;
+    margin-left: 45.52275%;
+  }
+
+  .features ._text {
+    margin-top: 100px;
+  }
+
+  .footerbox ._input {
+    position: absolute;
+    float: none;
+    top: 22px;
+    left: 51.9348144531%;
+    width: 28.6458333333%;
+    min-width: 260px;
+    max-width: 260px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+
+  .about-2 {
+    margin-top: 0;
+  }
+
+  .extrafeatures .remote-1 {
+    height: 491px;
+    margin-top: 54px;
+  }
+
+  .security .image-6 {
+    min-width: 190px;
+    max-width: 190px;
+    margin-top: 77px;
+    margin-left: 34.02507%;
+  }
+
+  .security .image-7 {
+    min-width: 62px;
+    max-width: 62px;
+    margin-top: 78px;
+    margin-left: 0.99691%;
+  }
+
+  ._container .fb-1 {
+    left: 22.7986653645%;
+    width: 9.1145833333%;
+  }
+
+  ._container .footerbox-1 {
+    position: relative;
+    z-index: 12;
+    height: 483px;
+  }
+
+  ._container .menu-1 {
+    width: 68.0989583333%;
+    margin-left: 31.89901%;
+  }
+
+  ._container .tw-1 {
+    top: 150px;
+    left: 32.3262532552%;
+    width: 9.1145833333%;
+  }
+}
+
+@media(max-width: 649px) {
+  .about .bloxunit {
+    height: auto;
+  }
+
+  .about .text {
+    width: 77.1956856702%;
+  }
+
+  .browserpic {
+    position: relative;
+    z-index: 23;
+  }
+
+  .browsertext {
+    position: relative;
+    z-index: 27;
+  }
+
+  .browsertext .image {
+    float: none;
+    min-width: 220px;
+    max-width: 220px;
+    height: auto;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .browsertext .text {
+    position: relative;
+    float: none;
+    z-index: 24;
+    width: 52.6964560862%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .features .gadgets {
+    height: auto;
+    margin-top: 38px;
+  }
+
+  .footerbox .email {
+    top: 418px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footerbox .footertext {
+    position: absolute;
+    float: none;
+    top: 104px;
+    left: 0;
+    right: 0;
+    width: 62.2916666666%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .footerbox .message {
+    top: 471px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footerbox .send {
+    top: 573px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .footermsg-1,
+  .footermsg .allrights {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about .arrowtofeature,
+  .browsertext .arrowtootherf,
+  .extrafeatures .downtocontact,
+  .fb .fb,
+  .features .arrowtovideo,
+  .footermsg .footerlogo,
+  .musictext .arrowtopicture,
+  .pictext .arrowtoshare,
+  .sharetext .arrowtobrowser,
+  .tw .tw,
+  .videotext .arrowtomusic {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mainbanner {
+    position: relative;
+    z-index: 59;
+  }
+
+  .menu .about,
+  .menu .contact,
+  .menu .features {
+    margin-left: 9.98763%;
+  }
+
+  .menu .logo {
+    left: -39.5015025632%;
+    width: 27.1522008131%;
+    height: auto;
+  }
+
+  .musictext .image {
+    float: none;
+    min-width: 240px;
+    max-width: 240px;
+    height: auto;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .musictext .text {
+    position: relative;
+    float: none;
+    z-index: 39;
+    width: 44.5300462249%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .pictext .image {
+    float: none;
+    min-width: 280px;
+    max-width: 300px;
+    height: auto;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .pictext .text {
+    position: relative;
+    float: none;
+    z-index: 34;
+    width: 52.8505392912%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .remote .remote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 30.8166409861%;
+    min-width: 200px;
+    max-width: 200px;
+    height: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .remote .remotetext {
+    width: 92.7580893682%;
+    margin-top: 160px;
+  }
+
+  .security .image {
+    height: auto;
+  }
+
+  .security .text {
+    width: 84.283513097%;
+    margin-top: 130px;
+  }
+
+  .sharetext .image {
+    float: none;
+    height: auto;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sharetext .sharefilestext {
+    position: relative;
+    float: none;
+    z-index: 29;
+    width: 66.2557781201%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .videotext .image {
+    float: none;
+    min-width: 280px;
+    max-width: 300px;
+    height: auto;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .videotext .watchvideo {
+    position: relative;
+    float: none;
+    z-index: 44;
+    width: 60.4006163328%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+
+  .welcome .downtoabout {
+    height: auto;
+    margin-left: 44.69423%;
+  }
+
+  .features ._text {
+    margin-top: 51px;
+  }
+
+  .footerbox ._input {
+    top: 365px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+  .extrafeatures .remote-1 {
+    margin-top: 100px;
+  }
+
+  .security .image-6 {
+    margin-top: 60px;
+    margin-left: 27.99981%;
+  }
+
+  .security .image-7 {
+    margin-top: 61px;
+    margin-left: 0.99673%;
+  }
+
+  ._container .fb-1 {
+    top: 222px;
+    left: 38.4124614791%;
+    width: 10.7858243451%;
+  }
+
+  ._container .footerbox-1 {
+    position: relative;
+    z-index: 12;
+    height: 800px;
+    margin-top: 0;
+  }
+
+  ._container .menu-1 {
+    width: 68.0975539291%;
+    margin-left: 31.89763%;
+  }
+
+  ._container .tw-1 {
+    top: 222px;
+    left: 51.2326656394%;
+    width: 10.7858243451%;
+  }
+
+  .watchvideo span {
+    font-size: 2.25em;
+  }
+}
+
+@media(max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+
+  .downtoabout {
+  display: block;
+  float: left;
+  clear: both;
+  width: 272px;
+  min-width: 40px;
+  max-width: 55px;
+  height: auto;
+  margin: 105px 0 0 41.8%;
+  overflow: hidden;
+}
+
+  .about .bloxunit {
+    height: auto;
+  }
+
+  .about .text {
+    width: 73.9583333333%;
+    margin-top: 50px;
+    font-size: 1.625em;
+  }
+
+  .browserpic {
+    position: relative;
+    z-index: 23;
+  }
+
+  .browsertext {
+    position: relative;
+    z-index: 27;
+  }
+
+  .browsertext .arrowtootherf {
+    top: 540px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .browsertext .image,
+  .musictext .image {
+    min-width: 260px;
+    max-width: 260px;
+    height: auto;
+  }
+
+  .browsertext .text {
+    position: relative;
+    z-index: 24;
+    width: 60.2083333333%;
+    margin-top: 0;
+  }
+
+  .about .arrowtofeature,
+  .extrafeatures .downtocontact,
+  .pictext .arrowtoshare,
+  .sharetext .arrowtobrowser {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features .arrowtovideo {
+    top: 680px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features .gadgets {
+    height: auto;
+    margin-top: 47px;
+  }
+
+  .footerbox .footertext {
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .footermsg-1,
+  .footerbox ._input,
+  .footerbox .email,
+  .footerbox .message,
+  .footerbox .send {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footermsg .allrights {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.75em;
+  }
+
+  .footermsg .footerlogo {
+    top: 30px;
+    left: 0;
+    right: 0;
+    min-width: 70px;
+    max-width: 70px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mainbanner {
+    position: relative;
+    z-index: 59;
+  }
+
+  .menu .about,
+  .menu .contact,
+  .menu .features {
+    margin-top: 6px;
+    margin-left: 9.99349%;
+    font-size: 0.938em;
+  }
+
+  .menu .home {
+    margin-top: 6px;
+    margin-left: 15%;
+    font-size: 0.938em;
+  }
+
+  .menu .logo {
+    top: -67px;
+    left: 37.2916666666%;
+    width: 25%;
+    height: auto;
+  }
+
+  .musictext .arrowtopicture {
+    top: 589px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .musictext .text {
+    position: relative;
+    z-index: 39;
+    width: 76.0416666666%;
+  }
+
+  .pictext .image {
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .pictext .text {
+    position: relative;
+    z-index: 34;
+    width: 75.2083333333%;
+    margin-top: 20px;
+  }
+
+  .remote .remote {
+    left: 0;
+    right: 0;
+    width: 37.5%;
+    min-width: 180px;
+    max-width: 180px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .remote .remotetext {
+    width: 72.9166666666%;
+    margin-top: 130px;
+  }
+
+  .security .image {
+    height: auto;
+  }
+
+  .security .text {
+    width: 79.7916666666%;
+    margin-top: 150px;
+  }
+
+  .sharetext .image {
+    float: left;
+    height: auto;
+    margin-right: 0;
+    margin-left: 20.83008%;
+  }
+
+  .sharetext .sharefilestext {
+    position: relative;
+    z-index: 29;
+    width: 96.6666666666%;
+    margin-top: 340px;
+  }
+
+  .fb .fb,
+  .tw .tw {
+    right: auto;
+    height: auto;
+  }
+
+  .videotext .arrowtomusic {
+    top: 585px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .videotext .image {
+    min-width: 280px;
+    max-width: 280px;
+    height: auto;
+    margin-top: 70px;
+  }
+
+  .videotext .watchvideo {
+    position: relative;
+    z-index: 44;
+    width: 66.25%;
+    font-size: 1.25em;
+  }
+
+  .welcome {
+    position: relative;
+    z-index: 62;
+    width: 80%;
+    height: 229px;
+    margin-left: 10%;
+  }
+
+  .welcome .downtoabout {
+    height: auto;
+    margin-left: 42.83854%;
+  }
+
+  .features ._text {
+    margin-top: 42px;
+  }
+
+  .weoff {
+    margin-top: -70px;
+  }
+
+  .welcome ._text {
+    margin-left: 6.50228%;
+    font-size: 3em;
+  }
+
+  .security .image-6 {
+    margin-top: 80px;
+    margin-left: 21.9987%;
+  }
+
+  .security .image-7 {
+    margin-top: 81px;
+    margin-left: 0.99935%;
+  }
+
+  ._container .fb-1 {
+    top: 202px;
+    left: 38.75%;
+    width: 14.5833333333%;
+  }
+
+  ._container .footerbox-1 {
+    position: relative;
+    z-index: 12;
+  }
+
+  ._container .menu-1 {
+    width: 100%;
+    margin-top: 67px;
+    margin-left: 0;
+  }
+
+  ._container .tw-1 {
+    top: 202px;
+    left: 51.3411458333%;
+    width: 14.5833333333%;
+  }
+
+  ._container-1 {
+    height: 100px;
+  }
+
+  .remotetext em,
+  .text-6 em {
+    font-size: 1.125em;
+  }
+
+  .remotetext span,
+  .text-6 span {
+    font-size: 2.375em;
+  }
+
+  .watchvideo em {
+    font-size: inherit;
+  }
+}
+
+@media(max-width: 380px) {
+  .about .bloxunit {
+    height: auto;
+
+  }
+
+  .about .text {
+    width: 80.2631578947%;
+  }
+
+  .browserpic {
+    position: relative;
+    z-index: 23;
+  }
+
+  .browsertext {
+    position: relative;
+    z-index: 27;
+  }
+
+  .browsertext .image {
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .browsertext .text {
+    position: relative;
+    z-index: 24;
+    width: 74.7368421052%;
+    margin-top: 20px;
+  }
+
+  .about .arrowtofeature,
+  .browsertext .arrowtootherf,
+  .extrafeatures .downtocontact,
+  .features .arrowtovideo,
+  .musictext .arrowtopicture,
+  .pictext .arrowtoshare,
+  .sharetext .arrowtobrowser,
+  .videotext .arrowtomusic {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features .text {
+    width: 88.1578947368%;
+    margin-top: 70px;
+  }
+
+  .footerbox .email {
+    top: 423px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footerbox .footertext {
+    top: 79px;
+    left: 0;
+    right: 0;
+    width: 69.4736842105%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footerbox .message {
+    top: 476px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footerbox .send {
+    top: 582px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .footermsg-1,
+  .footermsg .allrights {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footermsg .footerlogo {
+    top: 27px;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mainbanner {
+    position: relative;
+    z-index: 59;
+  }
+
+  .menu .about,
+  .menu .contact,
+  .menu .features {
+    margin-top: 5px;
+    margin-left: 9.99589%;
+    font-size: 0.875em;
+  }
+
+  .menu .home {
+    margin-top: 5px;
+    margin-left: 10%;
+    font-size: 0.875em;
+  }
+
+  .menu .logo {
+    left: 33.8157894736%;
+    width: 31.5789473684%;
+    height: auto;
+  }
+
+  .musictext .text {
+    position: relative;
+    z-index: 39;
+    width: 74.4736842105%;
+    margin-top: 30px;
+  }
+
+  .pictext .text {
+    position: relative;
+    z-index: 34;
+    width: 78.1578947368%;
+    margin-top: 0;
+  }
+
+  .remote .remote {
+    top: -4px;
+    left: 0;
+    right: 0;
+    width: 42.1052631578%;
+    min-width: 160px;
+    max-width: 160px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .remote .remotetext {
+    width: 87.8947368421%;
+  }
+
+  .security .image {
+    height: auto;
+  }
+
+  .security .text {
+    width: 83.1578947368%;
+    margin-top: 160px;
+  }
+
+  .sharetext .image {
+    float: none;
+    height: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sharetext .sharefilestext {
+    position: relative;
+    z-index: 29;
+    width: 80%;
+    margin-top: 0;
+  }
+
+  .fb .fb,
+  .features .gadgets,
+  .musictext .image,
+  .pictext .image,
+  .tw .tw {
+    height: auto;
+  }
+
+  .videotext .image {
+    min-width: 200px;
+    max-width: 200px;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .videotext .watchvideo {
+    position: relative;
+    z-index: 44;
+    width: 88.947368421%;
+  }
+
+  .welcome {
+    position: relative;
+    z-index: 62;
+  }
+
+  .welcome .downtoabout {
+    height: auto;
+    margin-left: 40.95395%;
+  }
+
+  .footerbox ._input {
+    top: 370px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .security .image-6 {
+    min-width: 160px;
+    max-width: 160px;
+    margin-left: 20%;
+  }
+
+  .security .image-7 {
+    min-width: 51px;
+    max-width: 51px;
+    margin-left: 0.99918%;
+  }
+
+  ._container .fb-1 {
+    top: 241px;
+    left: 34.5476973684%;
+    width: 18.4210526315%;
+  }
+
+  ._container .footerbox-1 {
+    position: relative;
+    z-index: 12;
+  }
+
+  ._container .tw-1 {
+    top: 241px;
+    left: 52.5575657894%;
+    width: 18.4210526315%;
+  }
+
+  .watchvideo em {
+    font-size: 1em;
+  }
+
+  .watchvideo span {
+    font-size: 1.8em;
+  }
+

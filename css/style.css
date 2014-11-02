@@ -1,0 +1,151 @@
+
+
+
+/*Logo Image */
+.navbar-brand-logo {
+  
+  max-width: 105px;
+  max-height: 43px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+/*Landing Page Picture */
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('../images/photo-folkert-gorter-n-22.jpg') no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position-y: 78%;
+}
+
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*Landing Page Message */
+.intro-body ._text {
+  float: left;
+  width: 86.9986979166%;
+  min-height: auto;
+  margin: 73px 0 0 6.4974%;
+  font-family: 'Open Sans';
+  font-size: 3.125em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+
+.down {
+  margin-top: 60px;
+  color: #fff;
+}
+
+
+.lim {
+  color:#aaa;
+}
+
+.mid {
+  margin-top: 20px;
+}
+
+.unit1 {
+  max-width: 300px;
+  min-width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.unit2 {
+
+  max-width: 103px;
+  max-height: 300px;
+  min-height: 280px;
+  min-width:87;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.spec li {
+  text-align: center;
+}
+
+
+
+/*Fullscreen min width before halfscreen */
+@media(min-width:300px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+}
+
+
+
+
+/*weoffer*/
+
+
+
+
+
+
+.bloxbig {
+  width: 41px;
+
+  height: auto;
+  overflow: hidden;
+}
+
+
+.bloxsmall {
+
+  width: 180px;
+  min-width: 170px;
+  max-width: 180px;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+.bloxbig {
+  width: 120px;
+  height: auto;
+
+}
+
+
+.bloxsmall {
+
+  width: 260px;
+  min-width: 200px;
+  max-width: 260px;
+  height: auto;
+  overflow: hidden;
+}
+}
+
