@@ -58,6 +58,13 @@
   color:#aaa;
 }
 
+.lim2 {
+  color:#aaa;
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
 .mid {
   margin-top: 20px;
 }
@@ -102,6 +109,17 @@
 
 }
 
+@media(max-width:380px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+        font-size: 0.9em;
+        text-align: center;
+      
+    }
+
+}
+
 
 
 
@@ -122,8 +140,8 @@
 
 .bloxsmall {
 
-  width: 180px;
-  min-width: 170px;
+
+  min-width: 100px;
   max-width: 180px;
   height: auto;
   overflow: hidden;
@@ -141,8 +159,7 @@
 
 .bloxsmall {
 
-  width: 260px;
-  min-width: 200px;
+  min-width: 100px;
   max-width: 260px;
   height: auto;
   overflow: hidden;

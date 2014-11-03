@@ -4,21 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
   <title>Blox Entertainment</title>
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Sans Pro:300" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="static/css/standardize.css">
-  <link rel="stylesheet" href="static/css/index-grid.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  <link rel="stylesheet" href="static/css/style.css">
-  <link rel="stylesheet" href="static/css/style1.css">
-  <link rel="stylesheet" href="static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="static/css/bootstrap.css">
-  <link rel="stylesheet" href="static/css/scrolling-nav.css">
-  <link rel="stylesheet" href="static/css/animate.css">
-  <link rel="stylesheet" href="static/css/animate.min.css">
-  <link href="static/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="static/font-awesome-4.1.0/css/font-awesome-animation.min.css" rel="stylesheet" type="text/css">
-  <link rel="icon" type="static/image/png" href="static/images/favicon3.png">
+  <!-- Fixed--> 
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Sans Pro:300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/css/standardize.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/style1.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <!-- Animations--> 
+    <link rel="stylesheet" href="static/css/scrolling-nav.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <!-- Icons--> 
+    <link href="static/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="static/font-awesome-4.1.0/css/font-awesome-animation.min.css" rel="stylesheet" type="text/css">
+    <!-- Favicon--> 
+    <link rel="icon" type="static/image/png" href="static/images/favicon3.png">
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-default navbar-fixed-top move-me">
@@ -66,7 +68,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h1 class="_text">Entertainment for everyone.</h1>
+              <h1 class="_text">Entertainment for everyone</h1>
                       
                 <div class='buynow'>
                   <div class="but">
@@ -104,7 +106,7 @@
     <div class="text-center">
       <div class="container">
 
-        <div class="row animatedParent">
+        <div class="row">
           
           <div class="col-sm-6">
             <div>
@@ -293,26 +295,68 @@
     </a>
   </div>
 
-  <!-- Footer/Contact--> 
-  <footer class="_container _container-2">
-    <div id='contactus' class="footerbox footerbox-1 clearfix">
-      <div class="footertext">
-        <p>Try Blox for free and use it in your entertainment areas or lounge.&nbsp;</p>
-        <p>Give us a call: (02) 682 63 27 / 0916 652 3863</p>
+<!-- Footer/Contact--> 
+<footer class="_container _container-2" id='contactus'>
+  <div class="container">
+    <div class="row topmargin">
+      <div class="col-sm-6">
+        <div class="contact-box">
+          <div class="contact-desc centeredleft">
+            <p>Try Blox for free and use it in your entertainment areas or lounge.&nbsp;</p>
+            <p>Give us a call: (02) 682 63 27 / 0916 652 3863</p>
+        
+              <a href="https://facebook.com/bloxph">
+                <span class="fa-stack fa-lg sidemargins">
+                  <i class="fa fa-facebook fa-2x faa-shake animated-hover"></i>
+                </span>
+              </a>
+
+              <a href="https://twitter.com/bloxph">
+                <span class="fa-stack fa-lg sidemargins"> 
+                  <i class="fa fa-twitter fa-2x faa-shake animated-hover"></i>
+                </span>
+              </a>
+
+              <a href="https://instagram.com/bloxph">
+                <span class="fa-stack fa-lg sidemargins"> 
+                  <i class="fa fa-instagram fa-2x faa-shake animated-hover"></i>
+                </span>
+              </a>
+          </div>
+        </div>
       </div>
 
-      <a href="https://facebook.com/bloxph" class="fb fb-1" target="_blank">
-        <img class="fb" src="static/images/u4052-49x49.png" data-rimage data-src="static/images/u4052-49x49.png">
-      </a>
 
-      <a href="https://twitter.com/bloxph" class="tw tw-1" target="_blank">
-        <img class="tw" src="static/images/u4048-49x49.png" data-rimage data-src="static/images/u4048-49x49.png">
-      </a>
 
-      <input class="_input" name="Name" placeholder="Name" type="text">
-      <input class="email" name="Email" placeholder="Email" type="email">
-      <textarea class="message" name="Message" placeholder="Message"></textarea>
-      <button class="send">Sends</button>
+
+
+      <div class="col-sm-6">
+        <div class="contact-box">
+          <div class="contact-desc centeredright">
+            <form data-toggle="validator" role="form" >
+              <div class="top-margin">
+                <input type="text" class="form-control" id="inputName" placeholder='Name' class='_input' required>
+                  <div class="help-block with-errors"></div>
+              </div>
+                    
+              <div class="top-margin">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" class="email" data-error="Bruh, that email address is invalid" required>
+                  <div class="help-block with-errors"></div>
+              </div>
+
+              <div class="top-margin">
+                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+              </div>
+
+              <div class="top-margin">  
+                <div class="text-r">
+                  <button class="btn-white" type="submit">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="footermsg footermsg-1">
@@ -322,10 +366,10 @@
         <img class="footerlogo page-scroll" src="static/images/u4054-105x43.png" data-rimage data-src="static/images/u4054-105x43.png">
       </a>
     </div>
-  </footer>
+  </div>
+</footer>
 
   <script src="static/js/jquery-min.js"></script>
-  <script src="static/js/rimages.js"></script> 
   <script src="static/js/jquery.easing.min.js"></script>
   <script src="static/js/scrolling-nav.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
