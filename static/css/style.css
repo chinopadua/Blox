@@ -131,8 +131,8 @@
 
 
 .bloxbig {
-  width: 41px;
-
+  min-width: 100px;
+  max-width: 300px;
   height: auto;
   overflow: hidden;
 }
@@ -140,9 +140,8 @@
 
 .bloxsmall {
 
-
   min-width: 100px;
-  max-width: 180px;
+  max-width: 300px;
   height: auto;
   overflow: hidden;
 }
@@ -151,18 +150,43 @@
 @media (max-width: 768px) {
 
 .bloxbig {
-  width: 120px;
+  min-width: 100px;
+  max-width: 400px;
   height: auto;
-
+  overflow: hidden;
 }
 
 
 .bloxsmall {
 
   min-width: 100px;
-  max-width: 260px;
+  max-width: 400px;
   height: auto;
   overflow: hidden;
 }
+
+
+
+.service-desc .envy {
+
+margin-bottom: -300px;
+}
 }
 
+
+@media (max-width: 480px) {
+
+.service-desc .envy {
+
+margin-bottom: -200px;
+}
+}
+
+
+@media (max-width: 380px) {
+
+.service-desc .envy {
+
+margin-bottom: -120px;
+}
+}

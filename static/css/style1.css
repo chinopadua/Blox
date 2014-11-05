@@ -292,8 +292,12 @@ border-color: #412b45;
   margin-top: 0px;
 }
 
+.bounceIn {
 
 }
+
+}
+
 
 
 
@@ -861,7 +865,7 @@ color: rgb(140, 140, 140);
   position: relative;
   vertical-align: top;
   max-width: 400px;
-  min-width: 260px;
+  min-width: 220px;
   height: 60px;
   padding: 0;
   font-size: 18px;
