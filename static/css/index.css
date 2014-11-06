@@ -354,9 +354,8 @@ body {
   position: relative;
   float: left;
   z-index: 24;
-  width: 34%;
-  min-height: 100px;
-  margin-top: 252px;
+  width: 40%;
+  margin: 252px 0 0 3%;
   padding-right: 20px;
   font-size: 1em;
   font-weight: 400;
@@ -2152,8 +2151,8 @@ body {
   .browsertext .text {
     position: relative;
     z-index: 24;
-    width: 60.2083333333%;
-    margin-top: 0;
+    width: 80%;
+    margin-top: 40px;
   }
 
   .about .arrowtofeature,
