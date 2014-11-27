@@ -82,8 +82,8 @@ a:hover{color:#454545;}
 
 .home-section {
     padding-top: 150px;
-    padding-bottom: 30px;
-  display:block;
+    padding-bottom: 90px;
+    display:block;
     position:relative;
     z-index:120;
 }
@@ -219,6 +219,18 @@ background-color: #412b45;
 border-color: #412b45;
 }
 
+.forgotpass {
+display: block;
+margin-top: 12px;
+background-color: transparent;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.42857143;
+white-space: nowrap;
+vertical-align: middle;
+}
+
 .sidemargins {
   margin-right: 4px;
   margin-left: 4px;
@@ -328,7 +340,6 @@ border-color: #412b45;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  font-family: 'Source Sans Pro';
   font-size: 1.6em;
   font-weight: 400;
 
