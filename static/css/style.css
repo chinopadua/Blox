@@ -48,6 +48,23 @@
 }
 
 
+/*Full Features Intro Message */
+.intro-features ._text {
+  width: 80%;
+  min-height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 220px;
+  font-family: 'Open Sans';
+  font-size: 3.125em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+
+
 .down {
   margin-top: 60px;
   color: #fff;

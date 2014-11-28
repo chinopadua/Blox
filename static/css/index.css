@@ -46,6 +46,23 @@ body {
   color: #2d2d2d;
 }
 
+.featureintro {
+  float: left;
+}
+
+.featureintro .text {
+  float: left;
+  clear: both;
+  width: 66.3997395833%;
+  min-height: 246px;
+  margin: 81px 0 0 16.79948%;
+  font-family: 'Source Sans Pro';
+  font-size: 1.875em;
+  font-weight: 300;
+  text-align: center;
+  color: #2d2d2d;
+}
+
 .weoffer {
  font-family: 'Source Sans Pro';
   font-size: 1.875em;
@@ -195,9 +212,9 @@ body {
   -ms-transform:scale(1);
   transform:scale(1);
   z-index:2;
-  -moz-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.2);
-  box-shadow:0px 0px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+  box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
 }
 .PlanPricing .planName {
   padding-top:50px;
@@ -321,7 +338,7 @@ background:transparent;
     border-color: #412b45;
     box-sizing: border-box;
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
     color:#fff;
     font-size:15px;
     background: #412b45; /* Old browsers */
@@ -451,6 +468,13 @@ background:transparent;
   background-color: #f9f9f9;
 }
 
+.featureintro2 {
+  position: relative;
+  width: 100%;
+  height: 1050px;
+  background-color: #f9f9f9;
+}
+
 
 
 .downtofeature {
@@ -460,6 +484,12 @@ background:transparent;
 @media(max-width: 1200px) {
 
 .about-2 {
+
+  height: 1000px;
+
+}
+
+.feature2 {
 
   height: 1000px;
 
@@ -480,6 +510,12 @@ background:transparent;
 
 }
 
+ .feature2 {
+
+  height: 940px;
+
+}
+
 .arrowtofeature {
 
   top: 840px;
@@ -490,6 +526,12 @@ background:transparent;
 @media(max-width: 768px) {
 
 .about-2 {
+
+  height: 900px;
+
+}
+
+.featureintro2 {
 
   height: 900px;
 
@@ -510,6 +552,12 @@ background:transparent;
 
 }
 
+.featureintro2 {
+
+  height: 1000px;
+
+}
+
 .arrowtofeature {
 
   top: 900px;
@@ -520,9 +568,26 @@ background:transparent;
 
 /*about arrowdown*/
 
+.tags {
+
+  min-width: 10px;
+  max-width: 16px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
 
 
-
+.deep {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/deep.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 
 .beach {
@@ -582,6 +647,27 @@ background:transparent;
   margin-bottom: 100px;
 }
 
+.bloxunit4 {
+  display: block;
+  width: 70%;
+  min-width: 400px;
+  max-width: 550px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.producttitle {
+  display: block;
+  width: 70%;
+  min-width: 100px;
+  max-width: 130px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+
 .browserpic {
   position: relative;
   float: left;
@@ -619,7 +705,7 @@ background:transparent;
   float: left;
   z-index: 24;
   width: 40%;
-  margin: 252px 0 0 3%;
+  margin: 190px 0 0 5%;
   padding-right: 20px;
   font-size: 1em;
   font-weight: 400;
@@ -744,6 +830,17 @@ background:transparent;
 .footermsg {
   position: absolute;
   top: 700px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footermsg2 {
+  position: absolute;
+  top: 38px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -921,7 +1018,7 @@ background:transparent;
   clear: both;
   width: 100%;
   height: 600px;
-  background: url('../images/photoss.jpg') rgb(66, 43, 69);
+  background: url('../images/pictures.jpg') rgb(66, 43, 69);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1021,6 +1118,22 @@ background:transparent;
 
 .sharefilestext {
   position: relative;
+  width: 40%;
+  min-height: 100px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /*margin: 200px 0 0 3%;*/
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+  
+}
+
+.filestoragetext {
+  position: relative;
   float: left;
   z-index: 29;
   width: 40%;
@@ -1039,6 +1152,17 @@ background:transparent;
   width: 100%;
   height: 600px;
   background: url('../images/13.jpg') rgb(66, 43, 69);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.store {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 600px;
+  background: url('../images/store.jpg') rgb(66, 43, 69);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -1147,6 +1271,18 @@ background:transparent;
   float: left;
   width: 100%;
   background-color: rgb(0, 0, 0);
+}
+
+.container2 {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.container3 {
+  clear: both;
+  height: 160px;
 }
 
 ._input {
@@ -1282,6 +1418,7 @@ background:transparent;
 .playmusic span,
 .remotetext span,
 .sharefilestext span,
+.filestoragetext span,
 .text span,
 .watchvideo span {
   font-family: 'Open Sans';
@@ -1291,7 +1428,8 @@ background:transparent;
 
 
 .sharefilestext em,
-.watchvideo em {
+.watchvideo em,
+.filestoragetext em {
   font-family: 'Open Sans';
   font-size: 1.5em;
   font-weight: 300;
@@ -1369,8 +1507,8 @@ background:transparent;
   .browsertext .text {
     position: relative;
     z-index: 24;
-    width: 40.234375%;
-    margin-top: 248px;
+    width: 39%;
+    margin-top: 160px;
   }
 
   .about .arrowtofeature,
@@ -1560,6 +1698,17 @@ background:transparent;
   }
 
   .sharetext .sharefilestext {
+  
+  position: relative;
+  width: 40%;
+  min-height: 100px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+
+   .sharetext .filestoragetext {
     position: relative;
     z-index: 29;
     width: 42%;
@@ -1759,14 +1908,14 @@ background:transparent;
     max-width: 270px;
     height: auto;
     margin-top: 180px;
-    margin-left: 12.99642%;
+    margin-left: 7%;
   }
 
   .browsertext .text {
     position: relative;
     z-index: 24;
-    width: 38.671875%;
-    margin-top: 225px;
+    width: 43%;
+    margin-top: 160px;
   }
 
   .features .arrowtovideo {
@@ -1948,6 +2097,12 @@ background:transparent;
 
   .sharetext .sharefilestext {
     position: relative;
+    width: 50%;
+    margin-top: 180px;
+  }
+
+   .sharetext .filestoragetext {
+    position: relative;
     z-index: 29;
     width: 40%;
     margin-top: 200px;
@@ -2084,7 +2239,7 @@ background:transparent;
     min-width: 220px;
     max-width: 220px;
     height: auto;
-    margin-top: 90px;
+    margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -2093,7 +2248,7 @@ background:transparent;
     position: relative;
     float: none;
     z-index: 24;
-    width: 52.6964560862%;
+    width: 100%;
     margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
@@ -2261,6 +2416,16 @@ background:transparent;
   }
 
   .sharetext .sharefilestext {
+  position: relative;
+  width: 80%;
+  min-height: 100px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+
+  .sharetext .filestoragetext {
     position: relative;
     float: none;
     z-index: 29;
@@ -2415,7 +2580,7 @@ background:transparent;
   .browsertext .text {
     position: relative;
     z-index: 24;
-    width: 80%;
+    width: 100%;
     margin-top: 40px;
   }
 
@@ -2570,6 +2735,13 @@ background:transparent;
   }
 
   .sharetext .sharefilestext {
+    position: relative;
+    z-index: 29;
+    width: 96.6666666666%;
+    margin-top: 100px;
+  }
+
+  .sharetext .filestoragetext {
     position: relative;
     z-index: 29;
     width: 96.6666666666%;
@@ -2860,6 +3032,13 @@ background:transparent;
   }
 
   .sharetext .sharefilestext {
+    position: relative;
+    z-index: 29;
+    width: 80%;
+    margin-top: 0;
+  }
+
+   .sharetext .filestoragetext {
     position: relative;
     z-index: 29;
     width: 80%;

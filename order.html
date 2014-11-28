@@ -59,9 +59,10 @@
 
 
   
-                    <li ><a class="page-scroll" href="/#weoffer">Products</a></li>
-                    <li ><a class="page-scroll" href="/#about">About</a></li>
-                    <li ><a class="page-scroll" href="/#contactus">Contact</a></li>
+                    <li ><a class="page-scroll" href="#weoffer">Products</a></li>
+                    <li ><a class="page-scroll" href="fullfeatures.html">Features</a></li>
+                    <li ><a class="page-scroll" href="#contactus">Contact</a></li>
+                    <li ><a class="page-scroll" href="#login" data-toggle="modal">Login</a></li>
                 </ul>
             </div>
         </div>
@@ -290,6 +291,36 @@
     </div>
   </div>
   <!-- /About--> 
+
+  <!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="logintitle" id="myModalLabel">Login to Blox</h4>
+      </div>
+        <div class="modal-body">
+            <form data-toggle="validator" role="form" >
+              <div class="top-margin">
+                  <input type="text" class="login" id="inputName" placeholder='Username' required>
+                    <div class="help-block with-errors"></div>
+
+                <div class="top-margin">
+                    <input class="login" id="password" name="password" placeholder="Password" type="password" value="" required>
+                      <div class="help-block with-errors"></div>
+                </div>
+            
+        </div>
+          <div class="center">
+            <button class="btn-whiteonw" type="submit">Login</button>
+            <a href="#" class="forgotpass">Forgot Password?</a>
+          </div>
+            </form>
+
+    </div>
+  </div>
+</div>  
 
 
   <script src="static/js/jquery-min.js"></script>
