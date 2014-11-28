@@ -81,7 +81,6 @@ a:hover{color:#454545;}
 
 
 .home-section {
-    padding-top: 150px;
     padding-bottom: 90px;
     display:block;
     position:relative;
@@ -89,9 +88,9 @@ a:hover{color:#454545;}
 }
 
 .bloxv1temp {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 110px;
-  display:block;
+    display:block;
     position:relative;
     z-index:120;
 
@@ -322,6 +321,15 @@ vertical-align: middle;
   text-align: left;
 }
 
+.producttext2 h5 {
+  margin-top: 80px;
+  font-weight: 700;
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .producttext p {
   text-align: left;
 }
@@ -333,17 +341,39 @@ vertical-align: middle;
 
 .center{
   text-align: center;
-  max-width: 700px;
+  max-width: 600px;
   min-width: 200px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 1.6em;
+  font-size: 2em;
   font-weight: 400;
+  font-family: 'Source Sans Pro';
+}
+
+.center2 {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 50%;
 
 }
+
+.selfclear {
+margin-right: auto;
+margin-left: auto;
+width: 100%;
+}
+
+
+
+
+
 
 .centeredleft {
 
@@ -371,6 +401,12 @@ vertical-align: middle;
 .imgmedium {
   max-width:300px;
   min-width:160px;
+
+}
+
+.imgsmall {
+  max-width:200px;
+  min-width:100px;
 
 }
 
