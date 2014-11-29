@@ -476,6 +476,13 @@ background:transparent;
 }
 
 
+.productsarrow {
+  color:#aaa;
+}
+
+.productsarrow:hover {
+  color:#412b45;
+}
 
 .downtofeature {
   color:#412b45;
@@ -504,6 +511,10 @@ background:transparent;
 
 @media(max-width: 1024px) {
  
+ .envytext {
+  padding-bottom: 80px;
+}
+
  .about-2 {
 
   height: 940px;
@@ -583,7 +594,7 @@ background:transparent;
   clear: both;
   width: 100%;
   height: 400px;
-  background: url('../images/deep.jpg') rgb(222, 222, 222);
+  background: url('../images/deep.jpg') rgb(0, 0, 0);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -594,12 +605,46 @@ background:transparent;
   clear: both;
   width: 100%;
   height: 400px;
-  background: url('../images/people.jpg') rgb(222, 222, 222);
+  background: url('../images/people.jpg') rgb(153, 67, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+
+.bay {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 500px;
+  background: url('../images/bay.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position-y: 78%;
+}
+
+.custom {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/customp.jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
+.oldguy {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/oldguy.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .beach {
   float: left;
@@ -658,6 +703,18 @@ background:transparent;
   margin-bottom: 100px;
 }
 
+.bloxunit3withoutmargin {
+  display: block;
+  width: 100%;
+  min-width: 200px;
+  max-width: 600px;
+  height: auto;
+  margin: 134px auto 0;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+
 .bloxunit4 {
   display: block;
   width: 70%;
@@ -666,6 +723,26 @@ background:transparent;
   height: auto;
   margin: auto;
   overflow: hidden;
+}
+
+.bloxunit5 {
+  display: block;
+  width: 80%;
+  min-width: 120px;
+  max-width: 200px;
+  height: auto;
+  margin: 134px auto 0;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+.maxouttoleft {
+  margin-left: -50px;
+}
+
+.bigpic {
+  min-width: 200px;
+  max-width: 600px;
 }
 
 .producttitle {
@@ -679,8 +756,8 @@ background:transparent;
 }
 
 .producttitle2 {
-  display: block;
-  width: 70%;
+  display: inline-block;
+  width: 100%;
   min-width: 100px;
   max-width: 160px;
   height: auto;
@@ -703,6 +780,39 @@ background:transparent;
   background-position: center center;
 }
 
+.custombuild {
+display: block;
+margin-bottom: 10px;
+}
+
+.custompics {
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-bottom: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.custommargin img {
+min-width: 50px;
+max-width: 150px;
+display: block;
+width: 100%;
+height: auto;
+overflow: hidden;
+}
+
+.top-margin {
+margin-top: 70px;
+}
+
+.top-margin2 {
+margin-top: 20px;
+}
+
+
 .first {
 display: inline-block;
 margin-top: 20px;
@@ -718,6 +828,32 @@ text-align: center;
 .first img{
 margin-bottom: 8px;
 }
+
+.second {
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+width: 160px;
+text-align: center;
+}
+
+.firstleft {
+position:absolute; 
+left:0px; 
+bottom:70px; 
+margin-left: 13px;
+}
+
+.firstright{
+position:absolute; 
+right:0px; 
+bottom:70px; 
+margin-right: 13px;
+  
+}
+
 
 
 
@@ -1060,7 +1196,7 @@ margin-bottom: 8px;
   clear: both;
   width: 100%;
   height: 600px;
-  background: url('../images/pictures.jpg') rgb(66, 43, 69);
+  background: url('../images/picturesss.jpg') rgb(66, 43, 69);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1199,7 +1335,6 @@ padding: 0 15px;
   font-weight: 400;
   line-height: 1.38;
   color: rgb(0, 0, 0);
-  
 }
 
 .filestoragetext {
@@ -1221,7 +1356,7 @@ padding: 0 15px;
   clear: both;
   width: 100%;
   height: 600px;
-  background: url('../images/13.jpg') rgb(66, 43, 69);
+  background: url('../images/share.jpg') rgb(66, 43, 69);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -1374,6 +1509,25 @@ padding: 0 15px;
 ._text {
   line-height: 1.38;
 }
+
+.envytext {
+  margin: 170px 0 0 5%;
+}
+
+.envytextcenter {
+  margin: 0px 0 0 5%;
+  position: relative;
+  width: 80%;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
 
 
 
@@ -1909,6 +2063,10 @@ padding: 0 15px;
     font-size: 1em;
   }
 
+.envytext {
+  margin: 40px 0 0 3%;
+  padding-bottom: 80px;
+}
 
 .arrowtobrowser {
   top: 600px;
