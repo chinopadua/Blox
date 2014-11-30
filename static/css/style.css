@@ -48,6 +48,23 @@
 }
 
 
+/*Full Features Intro Message */
+.intro-features ._text {
+  width: 80%;
+  min-height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 220px;
+  font-family: 'Open Sans';
+  font-size: 3.125em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+
+
 .down {
   margin-top: 60px;
   color: #fff;
@@ -56,6 +73,13 @@
 
 .lim {
   color:#aaa;
+}
+
+.lim2 {
+  color:#aaa;
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 50px;
 }
 
 .mid {
@@ -87,10 +111,6 @@
 
 }
 
-.spec li {
-  text-align: center;
-}
-
 
 
 /*Fullscreen min width before halfscreen */
@@ -102,19 +122,31 @@
 
 }
 
+@media(max-width:380px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+        font-size: 0.9em;
+        text-align: center;
+      
+    }
+
+}
 
 
+.thumbnail {
+
+  min-width: 50px;
+  max-width: 50px;
+  height: auto;
+  overflow: hidden;
+}
 
 /*weoffer*/
 
-
-
-
-
-
 .bloxbig {
-  width: 41px;
-
+  min-width: 100px;
+  max-width: 300px;
   height: auto;
   overflow: hidden;
 }
@@ -122,30 +154,54 @@
 
 .bloxsmall {
 
-  width: 180px;
-  min-width: 170px;
-  max-width: 180px;
+  min-width: 100px;
+  max-width: 300px;
   height: auto;
   overflow: hidden;
 }
+
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
 
 .bloxbig {
-  width: 120px;
+  min-width: 100px;
+  max-width: 400px;
   height: auto;
-
+  overflow: hidden;
 }
 
 
 .bloxsmall {
 
-  width: 260px;
-  min-width: 200px;
-  max-width: 260px;
+  min-width: 100px;
+  max-width: 400px;
   height: auto;
   overflow: hidden;
 }
+
+
+
+.service-desc .envy {
+
+margin-bottom: -300px;
+}
 }
 
+
+@media (max-width: 480px) {
+
+.service-desc .envy {
+
+margin-bottom: -200px;
+}
+}
+
+
+@media (max-width: 380px) {
+
+.service-desc .envy {
+
+margin-bottom: -120px;
+}
+}

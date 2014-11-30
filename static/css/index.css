@@ -1,14 +1,14 @@
-body {
-   width: 100%;
-    height: 100%;
-  font: 400 1em/1.38 Helvetica;
-  color: rgb(0, 0, 0);
-}
-
 html {
     width: 100%;
     height: 100%;
-}  
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+} 
 
 
 .browsertext p,
@@ -34,6 +34,23 @@ html {
 }
 
 .about .text {
+  float: left;
+  clear: both;
+  width: 66.3997395833%;
+  min-height: 246px;
+  margin: 81px 0 0 16.79948%;
+  font-family: 'Source Sans Pro';
+  font-size: 1.875em;
+  font-weight: 300;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.featureintro {
+  float: left;
+}
+
+.featureintro .text {
   float: left;
   clear: both;
   width: 66.3997395833%;
@@ -78,8 +95,11 @@ html {
 
 .poweredby {
   max-width: 130px;
-  min-width: 130px
+  min-width: 80px
 }
+
+
+/*DOwnArrows*/
 
 .arrowtobrowser {
   display: block;
@@ -94,16 +114,6 @@ html {
   overflow: hidden;
 }
 
-
-/*about div and arrows*/
-
-.about-2 {
-  position: relative;
-  width: 100%;
-  height: 1050px;
-  background-color: #f9f9f9;
-}
-
 .arrowtofeature {
   display: block;
   position: absolute;
@@ -116,59 +126,6 @@ html {
   margin: 0 auto;
   overflow: hidden;
 }
-
-.downtofeature {
-  color:#412b45;
-}
-
-@media(max-width: 1200px) {
-
-.about-2 {
-
-  height: 1000px;
-
-}
-
-.arrowtofeature {
-
-  top: 880px;
-}
-
-}
-
-@media(max-width: 1024px) {
- 
- .about-2 {
-
-  height: 940px;
-
-}
-
-.arrowtofeature {
-
-  top: 840px;
-}
-
-}
-
-@media(max-width: 768px) {
-
-.about-2 {
-
-  height: 900px;
-
-}
-
-.arrowtofeature {
-
-  top: 800px;
-}
-
-}
-
-
-/*about arrowdown*/
-
 
 .arrowtomusic {
   display: block;
@@ -225,7 +182,7 @@ html {
 .arrowtovideo {
   display: block;
   position: absolute;
-  top: 700px;
+  top: 900px;
   left: 0;
   right: 0;
   z-index: 51;
@@ -233,6 +190,459 @@ html {
   height: auto;
   margin: 0 auto;
   overflow: hidden;
+}
+
+
+/*==========PRODUCT PRICING START==============*/
+
+/* Animation */
+
+.PlanPricing {
+  margin-top:100px;
+  -moz-transition:all 0.6s ease;
+  -webkit-transition:all 0.6s ease;
+  -ms-transition:all 0.6s ease;
+  -o-transition:all 0.6s ease;
+  transition:all 0.6s ease;
+}
+.PlanPricing:hover {
+  -moz-transform:scale(1);
+  -webkit-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
+  z-index:2;
+  -moz-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+  box-shadow:0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.PlanPricing .planName {
+  padding-top:50px;
+  padding-bottom:10px;
+  text-align:center;
+}
+.PlanPricing .price {
+  background:#2cc76a;
+  padding:5px;
+  color:#FFF;
+  font-size:50px;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  border-radius:100%;
+  display:block;
+  width:100px;
+  height:100px;
+  line-height:100px;
+  margin:0 auto;
+  position:relative;
+  margin-top:-107px;
+  margin-bottom:10px;
+}
+.PlanPricing.Recommended .price {
+  background:#f45c57;
+}
+.PlanPricing .planName h3 {
+  color:#FFF;
+  text-align:center;
+  padding:0;
+  margin:0;
+  text-transform:uppercase;
+}
+.PlanPricing .planName p {
+  color:#999;
+  text-align:center;
+}
+.PlanPricing .planFeatures {
+  text-align:center;
+  padding:10px;
+}
+.PlanPricing .planFeatures ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.PlanPricing .planFeatures ul li {
+  padding:13px 0;
+  list-style:none;
+}
+.PlanPricing p {
+  margin:0;
+}
+.PlanPricing .btn {
+  width:100%;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+  margin:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+/*========= Price CSS==============*/
+
+
+.template4{
+  overflow:hidden;
+  
+font: 'Open Sans';
+font-size:13px;
+font-weight:300;
+position:relative;
+transition: all 0.2s linear 0s;
+background:transparent;
+}
+
+.template4:hover{
+  border-top:0px solid #412b45;
+  transition: all 0.2s linear 0s;
+}
+
+.template4:hover > p a{
+  width:100% !important;
+  
+}
+
+.template4:hover > div span.price{
+  top:50px; !important;
+  transition: all 0.2s linear 0s;
+}
+
+.PlanPricing.template4 .planName h3 {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+
+.PlanPricing.template4 .price {
+     background: none repeat scroll 0 0 #2CC76A;
+    border-radius: 0;
+    color: #FFFFFF;
+    display: block;
+    font-size: 36px;
+    height: 46px;
+    line-height: 38px;
+    margin: -50px auto 10px;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.PlanPricing.template4 .btn {
+    border-radius: 0;
+    border-color: #412b45;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 50%;
+    color:#fff;
+    font-size:15px;
+    background: #412b45; /* Old browsers */
+   -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+  transition: all 0.20s ease-in-out;
+  border-radius: 4px;
+}
+
+.PlanPricing.template4 .btn:hover {
+   background: #000 !important; /* Old browsers */
+   border-color: #000;
+   -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+  transition: all 0.20s ease-in-out;
+}
+
+
+.span3.PlanPricing.template4 > p {
+    text-align: center;
+}
+
+
+.PlanPricing.template4 .price {
+    background: none repeat scroll 0 0 #412b45;
+    border-radius: 0;
+    color: #FFFFFF;
+    display: block;
+    font-size: 36px;
+    height: 46px;
+    line-height: 38px;
+    padding: 5px;
+    position: absolute;
+    left:0;
+    top:-150px;
+    width: 100%;
+    transition: all 0.2s linear 0s;
+}
+
+
+.template4 .planFeatures {
+    color: #333333;
+}
+
+.negbotmargin{
+  margin-bottom: -70px;
+}
+
+/*==========PRODUCT PRICING END==============*/
+
+
+
+/*==========LOGIN MODAL==============*/
+.modal-header {
+  background-color: #412b45;
+  border-radius: 4px;
+}
+
+.modal-header span{
+  color: #fff;
+}
+
+.modal-title {
+  color:#fff;
+}
+
+.modal-content {
+  max-width: 400px;
+  min-width: 200px;
+  position: absolute;
+  margin: 0px auto;
+  z-index: 2500; 
+
+}
+
+.loginsec {
+  background: #fff;
+  padding: 0 30px 30px 30px;
+  margin: 60px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.logintitle {
+  color:#fff;
+  margin: 0;
+  line-height: 1.42857143;
+  text-align: center;
+}
+
+.login {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+
+
+/*==========LOGIN MODAL END==============*/
+
+
+
+
+/*about div*/
+
+.about-2 {
+  position: relative;
+  width: 100%;
+  height: 1050px;
+  background-color: #f9f9f9;
+}
+
+.featureintro2 {
+  position: relative;
+  width: 100%;
+  height: 1050px;
+  background-color: #f9f9f9;
+}
+
+
+.productsarrow {
+  color:#aaa;
+}
+
+.productsarrow:hover {
+  color:#412b45;
+}
+
+.downtofeature {
+  color:#412b45;
+}
+
+@media(max-width: 1200px) {
+
+.about-2 {
+
+  height: 1000px;
+
+}
+
+.feature2 {
+
+  height: 1000px;
+
+}
+
+.arrowtofeature {
+
+  top: 880px;
+}
+
+}
+
+@media(max-width: 1024px) {
+ 
+ .envytext {
+  padding-bottom: 80px;
+}
+
+ .about-2 {
+
+  height: 940px;
+
+}
+
+ .feature2 {
+
+  height: 940px;
+
+}
+
+.arrowtofeature {
+
+  top: 840px;
+}
+
+}
+
+@media(max-width: 768px) {
+
+.about-2 {
+
+  height: 900px;
+
+}
+
+.featureintro2 {
+
+  height: 900px;
+
+}
+
+.arrowtofeature {
+
+  top: 800px;
+}
+
+}
+
+@media(max-width: 768px) {
+
+.about-2 {
+
+  height: 1000px;
+
+}
+
+.featureintro2 {
+
+  height: 1000px;
+
+}
+
+.arrowtofeature {
+
+  top: 900px;
+}
+
+}
+
+
+/*about arrowdown*/
+
+.tags {
+
+  min-width: 10px;
+  max-width: 16px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.deep {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/deep.jpg') rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.people {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/people.jpg') rgb(153, 67, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+
+.bay {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 500px;
+  background: url('../images/bay.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position-y: 78%;
+}
+
+.custom {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/customp.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.oldguy {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background: url('../images/oldguy.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .beach {
@@ -292,6 +702,69 @@ html {
   margin-bottom: 100px;
 }
 
+.bloxunit3withoutmargin {
+  display: block;
+  width: 100%;
+  min-width: 200px;
+  max-width: 600px;
+  height: auto;
+  margin: 134px auto 0;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+
+.bloxunit4 {
+  display: block;
+  width: 70%;
+  min-width: 400px;
+  max-width: 550px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.bloxunit5 {
+  display: block;
+  width: 80%;
+  min-width: 120px;
+  max-width: 200px;
+  height: auto;
+  margin: 134px auto 0;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+.maxouttoleft {
+  margin-left: -50px;
+}
+
+.bigpic {
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.producttitle {
+  display: block;
+  width: 70%;
+  min-width: 100px;
+  max-width: 130px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.producttitle2 {
+  display: inline-block;
+  width: 100%;
+  min-width: 100px;
+  max-width: 160px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+
 .browserpic {
   position: relative;
   float: left;
@@ -305,6 +778,105 @@ html {
   background-size: cover;
   background-position: center center;
 }
+
+.custombuild {
+display: block;
+margin-bottom: 10px;
+}
+
+.custompics {
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-bottom: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.custommargin img {
+min-width: 50px;
+max-width: 300px;
+display: block;
+width: 100%;
+height: auto;
+overflow: hidden;
+}
+
+.top-margin {
+margin-top: 70px;
+}
+
+.top-margin2 {
+margin-top: 20px;
+}
+
+.top-margin3 {
+margin-top: 10px;
+}
+
+
+.first {
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+width: 90px;
+max-width: 90px;
+min-width: 90px;
+text-align: center;
+}
+
+.first img{
+margin-bottom: 8px;
+}
+
+.third {
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+max-width: 90px;
+min-width: 60px;
+text-align: center;
+}
+
+.third img{
+margin-bottom: 8px;
+}
+
+.second {
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+width: 160px;
+text-align: center;
+}
+
+.firstleft {
+position:absolute; 
+left:0px; 
+bottom:70px; 
+margin-left: 13px;
+}
+
+.firstright{
+position:absolute; 
+right:0px; 
+bottom:70px; 
+margin-right: 13px;
+  
+}
+
+
+
+
+
+
 
 .browsertext {
   position: relative;
@@ -328,9 +900,8 @@ html {
   position: relative;
   float: left;
   z-index: 24;
-  width: 34%;
-  min-height: 100px;
-  margin-top: 252px;
+  width: 40%;
+  margin: 190px 0 0 5%;
   padding-right: 20px;
   font-size: 1em;
   font-weight: 400;
@@ -425,7 +996,7 @@ html {
 .features .text {
   width: 83.1666666666%;
   min-height: 59px;
-  margin: 100px auto 0;
+  margin: 30px auto 0;
   font: 300 1.625em/1 'Source Sans Pro';
   text-align: center;
   color: #2d2d2d;
@@ -463,6 +1034,17 @@ html {
   margin: 0 auto;
 }
 
+.footermsg2 {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
 .footertext {
   float: left;
   width: 32.3333333333%;
@@ -476,9 +1058,9 @@ html {
 
 .gadgets {
   display: block;
-  width: 53.8333333333%;
-  min-width: 300px;
-  max-width: 646px;
+  width: 80%;
+  min-width: 360px;
+  max-width: 580px;
   height: auto;
   margin: 34px auto 0;
   overflow: hidden;
@@ -620,7 +1202,7 @@ html {
   z-index: 39;
   width: 35.1666666666%;
   min-height: 100px;
-  margin: 237px 0 0 2%;
+  margin: 260px 0 0 2%;
   padding-right: 20px;
   font-size: 1em;
   font-weight: 400;
@@ -632,7 +1214,7 @@ html {
   clear: both;
   width: 100%;
   height: 600px;
-  background: url('../images/picbg(2).jpg') rgb(66, 43, 69);
+  background: url('../images/picturesss.jpg') rgb(66, 43, 69);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -685,6 +1267,85 @@ html {
   color: rgb(255, 255, 255);
 }
 
+/*Footer for Panel*/
+
+.myfooter {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 60px;
+background-color: #f5f5f5;
+}
+
+.footercont {
+margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+width: auto;
+padding: 0 15px;
+}
+
+.footercont a {
+  color: #412b45;
+}
+
+.footercont a:hover {
+  color: #2f1f32;
+}
+
+/*///Footer for Panel*/
+
+/*Footer for Pages*/
+
+.myfooter2 {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 200px;
+background-color: #000;
+}
+
+.footercont2 {
+margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+width: auto;
+}
+
+.footercont2 a {
+  color: #412b45;
+}
+
+.footercont2 a:hover {
+  color: #2f1f32;
+}
+
+.footerlogo3 {
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  width: 105px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.allrights3 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 auto;
+  font: 400 1em/1.38 'Open Sans';
+  text-align: center;
+  color: rgb(140, 140, 140);
+}
+
+/*///Footer for Pages*/
+
 .road {
   float: left;
   clear: both;
@@ -732,11 +1393,26 @@ html {
 
 .sharefilestext {
   position: relative;
+  width: 40%;
+  min-height: 100px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /*margin: 200px 0 0 3%;*/
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.filestoragetext {
+  position: relative;
   float: left;
   z-index: 29;
-  width: 35.25%;
+  width: 40%;
   min-height: 100px;
-  margin: 239px 0 0 1%;
+  margin: 239px 0 0 3%;
   padding-right: 20px;
   font-size: 1em;
   font-weight: 400;
@@ -749,7 +1425,18 @@ html {
   clear: both;
   width: 100%;
   height: 600px;
-  background: url('../images/13.jpg') rgb(66, 43, 69);
+  background: url('../images/share.jpg') rgb(66, 43, 69);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.store {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 600px;
+  background: url('../images/store.jpg') rgb(66, 43, 69);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -763,15 +1450,21 @@ html {
   float: left;
   clear: both;
   width: 100%;
-  height: 700px;
+  height: 730px;
   background-color: rgb(255, 255, 255);
 }
 
+@media (max-width: 1024) {
+  .musictext, .pictext, .sharetext, .videotext {
+  height: :700px;
+}
+}
+
 .sharetext .image {
-  width: 30%;
+  width: 40%;
   min-width: 360px;
   max-width: 360px;
-  margin: 148px 0 0 18%;
+  margin: 170px 0 0 16%;
 }
 
 .fb,
@@ -798,7 +1491,7 @@ html {
   clear: both;
   width: 100%;
   height: 600px;
-  background: url('../images/9.jpg') rgb(255, 255, 255);
+  background: url('../images/videosmock.jpg') rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -808,10 +1501,23 @@ html {
   width: 30%;
   min-width: 360px;
   max-width: 360px;
-  margin: 180px 0 0 18%;
+  margin: 200px 0 0 18%;
 }
 
 .watchvideo {
+  position: relative;
+  float: left;
+  z-index: 44;
+  width: 32.5833333333%;
+  min-height: 100px;
+  margin: 254px 0 0 3%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.playmusic {
   position: relative;
   float: left;
   z-index: 44;
@@ -841,6 +1547,18 @@ html {
   background-color: rgb(0, 0, 0);
 }
 
+.container2 {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.container3 {
+  clear: both;
+  height: 160px;
+}
+
 ._input {
   display: block;
   position: relative;
@@ -859,6 +1577,77 @@ html {
 
 ._text {
   line-height: 1.38;
+}
+
+.envytext {
+  margin: 170px 0 0 5%;
+}
+
+.envytextcenter {
+  margin: 0px 0 0 5%;
+  position: relative;
+  width: 80%;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+
+/*MARGINS*/
+.margintop60 {
+  margin: 60px auto 0;
+}
+
+.margintop50 {
+  margin: 50px auto 0;
+}
+
+.margintop40 {
+  margin: 40px auto 0;
+}
+
+.margintop30 {
+  margin: 30px auto 0;
+}
+
+.margintop20 {
+  margin: 20px auto 0;
+}
+
+
+.marginbottom50 {
+  margin-bottom: 50px;
+}
+
+.marginbottom40 {
+  margin-bottom: 40px;
+}
+
+.marginbottom30 {
+  margin-bottom: 30px;
+}
+
+.marginbottom20 {
+  margin-bottom: 20px;
+}
+/*MARGINS*/
+
+/*ALIGNMENTS*/
+.textcenter {
+  text-align: center;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textright {
+  text-align: right;
 }
 
 
@@ -884,6 +1673,26 @@ html {
   margin-bottom: 50px; 
 }
 
+.weoff2 {
+  margin: 100px auto 0;
+  font-family: 'Source Sans Pro';
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px; 
+}
+
+.weoffmargin30 {
+  margin: 30px auto 0;
+  font-family: 'Source Sans Pro';
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px; 
+}
+
 
 .fb-1 {
   top: 130px;
@@ -899,7 +1708,7 @@ html {
   position: relative;
   clear: both;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -971,8 +1780,10 @@ html {
   color: inherit;
 }
 
+.playmusic span,
 .remotetext span,
 .sharefilestext span,
+.filestoragetext span,
 .text span,
 .watchvideo span {
   font-family: 'Open Sans';
@@ -980,17 +1791,19 @@ html {
   font-weight: 300;
 }
 
+
 .sharefilestext em,
-.watchvideo em {
+.watchvideo em,
+.filestoragetext em {
   font-family: 'Open Sans';
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-weight: 300;
   color: rgb(2, 2, 2);
 }
 
 .text em {
   font-family: 'Open Sans';
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-weight: 300;
 }
 
@@ -1059,8 +1872,8 @@ html {
   .browsertext .text {
     position: relative;
     z-index: 24;
-    width: 40.234375%;
-    margin-top: 248px;
+    width: 39%;
+    margin-top: 160px;
   }
 
   .about .arrowtofeature,
@@ -1074,7 +1887,7 @@ html {
   }
 
   .features .arrowtovideo {
-    top: 719px;
+    top: 900px;
     left: 0;
     right: 0;
     height: auto;
@@ -1153,8 +1966,15 @@ html {
     height: auto;
   }
 
+  .musictext em{
+  font-family: 'Open Sans';
+  font-size: 1.5em;
+  font-weight: 300;
+  color: rgb(2, 2, 2);
+  }
+
   .musictext .arrowtopicture {
-    top: 628px;
+    top: 584px;
     left: 0;
     right: 0;
     height: auto;
@@ -1178,8 +1998,15 @@ html {
     margin-left: 0.09766%;
   }
 
+  .pictext em{
+  font-family: 'Open Sans';
+  font-size: 1.5em;
+  font-weight: 300;
+  color: rgb(2, 2, 2);
+  }
+
+
   .pictext .arrowtoshare {
-    top: 591px;
     left: 0;
     right: 0;
     height: auto;
@@ -1229,25 +2056,31 @@ html {
 
   .sharetext .image {
     min-width: 320px;
-    max-width: 320px;
+    max-width: 340px;
     height: auto;
-    margin-top: 160px;
-    margin-left: 15.99884%;
+    margin-top: 180px;
+    margin-left: 12%;
   }
 
   .sharetext .sharefilestext {
-    position: relative;
-    z-index: 29;
-    width: 39.0625%;
-    margin-top: 231px;
-    margin-left: 0;
+  
+  position: relative;
+  width: 40%;
+  min-height: 100px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   }
 
-  .fb .fb,
-  .tw .tw {
-    right: auto;
-    height: auto;
+   .sharetext .filestoragetext {
+    position: relative;
+    z-index: 29;
+    width: 42%;
+    margin-top: 231px;
+    margin-left: 3%;
   }
+
 
   .videotext .arrowtomusic {
     top: 584px;
@@ -1257,6 +2090,7 @@ html {
     margin-right: auto;
     margin-left: auto;
   }
+
 
   .videotext .image {
     min-width: 320px;
@@ -1269,9 +2103,18 @@ html {
   .videotext .watchvideo {
     position: relative;
     z-index: 44;
-    width: 40.13671875%;
+    width: 39.9%;
     margin-top: 264px;
     margin-left: 30px;
+    padding-right: 20px;
+  }
+
+  .musictext .playmusic {
+    position: relative;
+    z-index: 44;
+    width: 40.13671875%;
+    margin-top: 264px;
+    margin-left: 0px;
     padding-right: 20px;
   }
 
@@ -1345,10 +2188,45 @@ html {
   }
 }
 
+/*TABLET*/
 @media(max-width: 768px) {
   body {
     font-size: 1em;
   }
+
+.envytext {
+  margin: 40px 0 0 3%;
+  padding-bottom: 80px;
+}
+
+.arrowtobrowser {
+  top: 600px;
+}
+
+.arrowtofeature {
+  top: 860px;
+}
+
+.arrowtomusic {
+  top: 600px;
+}
+
+.arrowtootherf {
+  top: 600px;
+}
+
+.arrowtopicture {
+  top: 600px;
+}
+
+.arrowtoshare {
+  top: 600px;
+}
+
+.arrowtovideo {
+  top: 600px;
+}
+
 
   .downtoabout {
   display: block;
@@ -1399,18 +2277,18 @@ html {
     max-width: 270px;
     height: auto;
     margin-top: 180px;
-    margin-left: 12.99642%;
+    margin-left: 7%;
   }
 
   .browsertext .text {
     position: relative;
     z-index: 24;
-    width: 38.671875%;
-    margin-top: 225px;
+    width: 43%;
+    margin-top: 160px;
   }
 
   .features .arrowtovideo {
-    top: 720px;
+    top: 880px;
     left: 0;
     right: 0;
     height: auto;
@@ -1522,7 +2400,7 @@ html {
   .musictext .text {
     position: relative;
     z-index: 39;
-    width: 33.9986165364%;
+    width: 40%;
     margin-top: 241px;
     margin-left: 0;
   }
@@ -1583,13 +2461,19 @@ html {
     max-width: 280px;
     height: auto;
     margin-top: 176px;
-    margin-left: 13.99943%;
+    margin-left: 10%;
   }
 
   .sharetext .sharefilestext {
     position: relative;
+    width: 50%;
+    margin-top: 180px;
+  }
+
+   .sharetext .filestoragetext {
+    position: relative;
     z-index: 29;
-    width: 35.546875%;
+    width: 40%;
     margin-top: 200px;
   }
 
@@ -1599,7 +2483,6 @@ html {
   }
 
   .videotext .arrowtomusic {
-    top: 585px;
     left: 0;
     right: 0;
     height: auto;
@@ -1618,7 +2501,7 @@ html {
   .videotext .watchvideo {
     position: relative;
     z-index: 44;
-    width: 36.6760253906%;
+    width: 40%;
     margin-top: 236px;
   }
 
@@ -1700,6 +2583,12 @@ html {
     height: auto;
   }
 
+
+  .features-2 {
+    height: 860px;
+  }
+
+
   .about .text {
     width: 77.1956856702%;
   }
@@ -1719,7 +2608,7 @@ html {
     min-width: 220px;
     max-width: 220px;
     height: auto;
-    margin-top: 90px;
+    margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1728,7 +2617,7 @@ html {
     position: relative;
     float: none;
     z-index: 24;
-    width: 52.6964560862%;
+    width: 100%;
     margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
@@ -1787,17 +2676,10 @@ html {
     margin-left: auto;
   }
 
-  .about .arrowtofeature,
-  .browsertext .arrowtootherf,
-  .extrafeatures .downtocontact,
-  .fb .fb,
-  .features .arrowtovideo,
-  .footermsg .footerlogo,
-  .musictext .arrowtopicture,
-  .pictext .arrowtoshare,
-  .sharetext .arrowtobrowser,
-  .tw .tw,
-  .videotext .arrowtomusic {
+
+  .features .arrowtovideo {
+  
+    top:800px;
     left: 0;
     right: 0;
     height: auto;
@@ -1836,7 +2718,7 @@ html {
     position: relative;
     float: none;
     z-index: 39;
-    width: 44.5300462249%;
+    width: 80%;
     margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
@@ -1858,7 +2740,7 @@ html {
     position: relative;
     float: none;
     z-index: 34;
-    width: 52.8505392912%;
+    width: 80%;
     margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
@@ -1903,11 +2785,21 @@ html {
   }
 
   .sharetext .sharefilestext {
+  position: relative;
+  width: 80%;
+  min-height: 100px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+
+  .sharetext .filestoragetext {
     position: relative;
     float: none;
     z-index: 29;
-    width: 66.2557781201%;
-    margin-top: 0;
+    width: 80%;
+    margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 20px;
@@ -1928,7 +2820,7 @@ html {
     position: relative;
     float: none;
     z-index: 44;
-    width: 60.4006163328%;
+    width: 80%;
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
@@ -1997,6 +2889,8 @@ html {
   .watchvideo span {
     font-size: 2.25em;
   }
+
+
 }
 
 @media(max-width: 480px) {
@@ -2047,7 +2941,7 @@ html {
 
   .browsertext .image,
   .musictext .image {
-    min-width: 260px;
+    min-width: 200px;
     max-width: 260px;
     height: auto;
   }
@@ -2055,8 +2949,8 @@ html {
   .browsertext .text {
     position: relative;
     z-index: 24;
-    width: 60.2083333333%;
-    margin-top: 0;
+    width: 100%;
+    margin-top: 40px;
   }
 
   .about .arrowtofeature,
@@ -2071,7 +2965,7 @@ html {
   }
 
   .features .arrowtovideo {
-    top: 680px;
+    top: 750px;
     left: 0;
     right: 0;
     height: auto;
@@ -2082,6 +2976,7 @@ html {
   .features .gadgets {
     height: auto;
     margin-top: 47px;
+    min-width: 220px;
   }
 
   .footerbox .footertext {
@@ -2160,12 +3055,13 @@ html {
   .musictext .text {
     position: relative;
     z-index: 39;
-    width: 76.0416666666%;
+    width: 94%;
   }
 
   .pictext .image {
     height: auto;
     margin-top: 60px;
+    min-width: 220px;
   }
 
   .pictext .text {
@@ -2211,6 +3107,13 @@ html {
     position: relative;
     z-index: 29;
     width: 96.6666666666%;
+    margin-top: 100px;
+  }
+
+  .sharetext .filestoragetext {
+    position: relative;
+    z-index: 29;
+    width: 96.6666666666%;
     margin-top: 340px;
   }
 
@@ -2239,9 +3142,10 @@ html {
   .videotext .watchvideo {
     position: relative;
     z-index: 44;
-    width: 66.25%;
-    font-size: 1.25em;
+    width: 94%;
+    font-size: 1em;
   }
+
 
   .welcome {
     position: relative;
@@ -2258,6 +3162,7 @@ html {
 
   .features ._text {
     margin-top: 42px;
+    font-size: 2.7em;
   }
 
   .weoff {
@@ -2316,16 +3221,16 @@ html {
     font-size: 2.375em;
   }
 
-  .watchvideo em {
-    font-size: inherit;
-  }
+
 }
 
 @media(max-width: 380px) {
   .about .bloxunit {
     height: auto;
+    min-width: 220px;
 
   }
+
 
   .about .text {
     width: 80.2631578947%;
@@ -2451,14 +3356,14 @@ html {
   .musictext .text {
     position: relative;
     z-index: 39;
-    width: 74.4736842105%;
+    width: 94%;
     margin-top: 30px;
   }
 
   .pictext .text {
     position: relative;
     z-index: 34;
-    width: 78.1578947368%;
+    width: 94%;
     margin-top: 0;
   }
 
@@ -2502,11 +3407,16 @@ html {
     margin-top: 0;
   }
 
-  .fb .fb,
+   .sharetext .filestoragetext {
+    position: relative;
+    z-index: 29;
+    width: 80%;
+    margin-top: 0;
+  }
+
   .features .gadgets,
   .musictext .image,
-  .pictext .image,
-  .tw .tw {
+  .pictext .image, {
     height: auto;
   }
 
@@ -2520,8 +3430,9 @@ html {
   .videotext .watchvideo {
     position: relative;
     z-index: 44;
-    width: 88.947368421%;
+    width: 94%;
   }
+
 
   .welcome {
     position: relative;
@@ -2571,10 +3482,12 @@ html {
   }
 
   .watchvideo em {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .watchvideo span {
     font-size: 1.8em;
   }
+
+
 
