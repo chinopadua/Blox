@@ -588,7 +588,6 @@ background:transparent;
   overflow: hidden;
 }
 
-
 .deep {
   float: left;
   clear: both;
@@ -797,7 +796,7 @@ margin-bottom: 10px;
 
 .custommargin img {
 min-width: 50px;
-max-width: 150px;
+max-width: 300px;
 display: block;
 width: 100%;
 height: auto;
@@ -830,6 +829,21 @@ text-align: center;
 }
 
 .first img{
+margin-bottom: 8px;
+}
+
+.third {
+display: inline-block;
+margin-top: 20px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+max-width: 90px;
+min-width: 60px;
+text-align: center;
+}
+
+.third img{
 margin-bottom: 8px;
 }
 
@@ -1281,6 +1295,57 @@ padding: 0 15px;
 
 /*///Footer for Panel*/
 
+/*Footer for Pages*/
+
+.myfooter2 {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 200px;
+background-color: #000;
+}
+
+.footercont2 {
+margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+width: auto;
+}
+
+.footercont2 a {
+  color: #412b45;
+}
+
+.footercont2 a:hover {
+  color: #2f1f32;
+}
+
+.footerlogo3 {
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  width: 105px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.allrights3 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 auto;
+  font: 400 1em/1.38 'Open Sans';
+  text-align: center;
+  color: rgb(140, 140, 140);
+}
+
+/*///Footer for Pages*/
+
 .road {
   float: left;
   clear: both;
@@ -1533,6 +1598,58 @@ padding: 0 15px;
 }
 
 
+/*MARGINS*/
+.margintop60 {
+  margin: 60px auto 0;
+}
+
+.margintop50 {
+  margin: 50px auto 0;
+}
+
+.margintop40 {
+  margin: 40px auto 0;
+}
+
+.margintop30 {
+  margin: 30px auto 0;
+}
+
+.margintop20 {
+  margin: 20px auto 0;
+}
+
+
+.marginbottom50 {
+  margin-bottom: 50px;
+}
+
+.marginbottom40 {
+  margin-bottom: 40px;
+}
+
+.marginbottom30 {
+  margin-bottom: 30px;
+}
+
+.marginbottom20 {
+  margin-bottom: 20px;
+}
+/*MARGINS*/
+
+/*ALIGNMENTS*/
+.textcenter {
+  text-align: center;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textright {
+  text-align: right;
+}
+
 
 
 /*h2 TEXTs*/
@@ -1558,6 +1675,16 @@ padding: 0 15px;
 
 .weoff2 {
   margin: 100px auto 0;
+  font-family: 'Source Sans Pro';
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px; 
+}
+
+.weoffmargin30 {
+  margin: 30px auto 0;
   font-family: 'Source Sans Pro';
   font-size: 3em;
   font-weight: 300;

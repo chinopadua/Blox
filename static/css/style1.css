@@ -89,10 +89,16 @@ a:hover{color:#454545;}
 
 .bloxv1temp {
     padding-top: 100px;
-    padding-bottom: 110px;
+    padding-bottom: 10px;
     display:block;
     position:relative;
     z-index:120;
+}
+
+.bloxv1tempnomargin {
+    padding-bottom: 10px;
+    display:block;
+    position:relative;
 }
 
 .bloxcustomtemp {
@@ -282,78 +288,116 @@ vertical-align: middle;
 .producttext {
 
   margin-top: 40px;
+}
+
+.producttextbottom {
+
+  margin-top: 40px;
+}
+
+.producttext3 {
+
+  margin-top: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .spec li {
+    text-align: left;
+  }
+
+  .producttext, 
+  .producttext3 h5 {
+  text-align: left;
+  }
 
 }
+
 
 @media (max-width: 768px) {
 
-.producttext {
+      .producttext {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      }
 
-  margin-top: 12px;
+      .producttextbottom{
+        margin-bottom: -40px;
+      }
 
-  }
+      .producttext3 {
 
-  .centeredleft {
-  margin: 0;
-  text-align: center;
-  
+      position: relative;
+      float: none;
+      z-index: 44;
+      width: 80%;
+      margin-top: 0;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      }
+
+
+      .centeredleft {
+      margin: 0;
+      text-align: center;
+      
+    }
+
+    .centeredright {
+      margin: 0;
+    }
+
+    .text-r {
+      text-align: center;
+     
+      }
+
+      .topmargin {
+      margin-top: 100px;
+    }
+
+    .service-box:hover {
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      margin-top: 0px;
+    }
+
+
 }
-
-.centeredright {
-  margin: 0;
-}
-
-.text-r {
-  text-align: center;
- 
-  }
-
-  .topmargin {
-  margin-top: 100px;
-}
-
-.service-box:hover {
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  margin-top: 0px;
-}
-
-.bounceIn {
-
-}
-
-}
-
 
 
 
 .producttext h5 {
-  
   font-weight: 700;
   color: #000;
   font-size: 22px;
   margin-bottom: 10px;
-  text-align: left;
 }
 
 .producttext2 h5 {
-  margin-top: 80px;
   font-weight: 700;
   color: #000;
   font-size: 22px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.producttext3 h5 {
+  
+  font-weight: 700;
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .producttext p {
   text-align: left;
 }
 
-
-.spec li {
-  text-align: left;
-}
 
 .center{
   text-align: center;
@@ -416,7 +460,7 @@ width: 100%;
 
 .imgmedium {
   max-width:300px;
-  min-width:160px;
+  min-width:100px;
 
 }
 

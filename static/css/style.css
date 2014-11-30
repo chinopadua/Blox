@@ -111,10 +111,6 @@
 
 }
 
-.spec li {
-  text-align: center;
-}
-
 
 
 /*Fullscreen min width before halfscreen */
@@ -138,14 +134,15 @@
 }
 
 
+.thumbnail {
 
+  min-width: 50px;
+  max-width: 50px;
+  height: auto;
+  overflow: hidden;
+}
 
 /*weoffer*/
-
-
-
-
-
 
 .bloxbig {
   min-width: 100px;
@@ -162,6 +159,7 @@
   height: auto;
   overflow: hidden;
 }
+
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
